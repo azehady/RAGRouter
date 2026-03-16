@@ -1,0 +1,70 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hybrid-engine
+  namespace: ciroos-rag
+  labels:
+    app: hybrid-engine
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hybrid-engine
+  template:
+    metadata:
+      labels:
+        app: hybrid-engine
+    spec:
+      containers:
+        - name: hybrid-engine
+          image: localhost:32000/ragrouter/hybrid-engine:latest
+          ports:
+            - containerPort: 8001
+          env:
+            - name: HYBRID_QDRANT_HOST
+              value: "qdrant.ciroos.svc.cluster.local"
+            - name: HYBRID_QDRANT_PORT
+              value: "6333"
+            - name: HYBRID_LITELLM_API_BASE
+              value: "http://litellm-service.ciroos.svc.cluster.local"
+            - name: HYBRID_EMBEDDING_API_BASE
+              value: "https://api.openai.com/v1"
+            - name: HYBRID_EMBEDDING_MODEL
+              value: "text-embedding-3-small"
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: ragrouter-secrets
+                  key: openai-api-key
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "1Gi"
+              cpu: "500m"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8001
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8001
+            initialDelaySeconds: 30
+            periodSeconds: 30
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hybrid-engine
+  namespace: ciroos-rag
+spec:
+  selector:
+    app: hybrid-engine
+  ports:
+    - port: 8001
+      targetPort: 8001
+  type: ClusterIP

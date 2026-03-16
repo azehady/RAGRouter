@@ -1,0 +1,114 @@
+engines:
+  hybrid:
+    name: "Hybrid Vector Engine"
+    type: hybrid
+    url: "http://hybrid-engine.ciroos-rag.svc.cluster.local:8001"
+    enabled: true
+    strengths:
+      - "large_corpus"
+      - "keyword_matching"
+      - "semantic_similarity"
+      - "general_purpose"
+    weaknesses:
+      - "structured_navigation"
+      - "multi_hop_reasoning"
+    latency_profile_ms: 800
+    cost_rank: 2
+    max_concurrent: 10
+
+  baseline:
+    name: "Baseline Vector Engine"
+    type: baseline
+    url: "http://vectorstore.ciroos.svc.cluster.local"
+    enabled: false
+    strengths:
+      - "fast"
+      - "simple"
+      - "low_cost"
+    weaknesses:
+      - "no_keyword_matching"
+      - "low_recall"
+    latency_profile_ms: 300
+    cost_rank: 1
+    max_concurrent: 20
+
+  toc:
+    name: "TOC/PageIndex Engine"
+    type: toc
+    url: "http://toc-engine.ragrouter.svc.cluster.local:8003"
+    enabled: false
+    strengths:
+      - "structured_docs"
+      - "section_lookup"
+      - "long_documents"
+    weaknesses:
+      - "short_docs"
+      - "fuzzy_queries"
+    latency_profile_ms: 1200
+    cost_rank: 3
+    max_concurrent: 5
+
+  graph:
+    name: "Graph/LightRAG Engine"
+    type: graph
+    url: "http://graph-engine.ragrouter.svc.cluster.local:8004"
+    enabled: false
+    strengths:
+      - "relationship_queries"
+      - "multi_hop"
+      - "entity_connections"
+    weaknesses:
+      - "simple_lookups"
+      - "expensive_indexing"
+    latency_profile_ms: 1500
+    cost_rank: 3
+    max_concurrent: 5
+
+  agent:
+    name: "Agentic/LangGraph Engine"
+    type: agent
+    url: "http://agent-engine.ragrouter.svc.cluster.local:8005"
+    enabled: false
+    strengths:
+      - "synthesis"
+      - "research"
+      - "complex_workflows"
+    weaknesses:
+      - "high_latency"
+      - "high_cost"
+    latency_profile_ms: 5000
+    cost_rank: 5
+    max_concurrent: 3
+
+  longcontext:
+    name: "Long-Context Direct LLM"
+    type: longcontext
+    url: "http://longcontext-engine.ragrouter.svc.cluster.local:8006"
+    enabled: false
+    strengths:
+      - "small_corpus"
+      - "full_context"
+      - "simple"
+    weaknesses:
+      - "large_corpus"
+      - "high_token_cost"
+      - "no_citations"
+    latency_profile_ms: 2000
+    cost_rank: 4
+    max_concurrent: 5
+
+arbiter:
+  default_mode: "cascade"
+  max_cascade_fallbacks: 2
+  parallel_topk: 3
+  confidence_threshold: 0.6
+  timeout_ms: 10000
+
+scoring:
+  weights:
+    groundedness: 0.30
+    coverage: 0.25
+    relevance: 0.25
+    confidence: 0.10
+    latency_penalty: 0.05
+    cost_penalty: 0.05
