@@ -1,0 +1,27 @@
+{
+  "total_questions": 123,
+  "by_source": {
+    "seed": 15,
+    "llm_generated": 108
+  },
+  "by_question_type": {
+    "factual": 28,
+    "procedural": 40,
+    "conceptual": 25,
+    "comparison": 19,
+    "multi-hop": 11
+  },
+  "by_difficulty": {
+    "easy": 32,
+    "medium": 65,
+    "hard": 26
+  },
+  "by_doc_type": {
+    "api": 35,
+    "onboarding": 22,
+    "integration": 21,
+    "feature": 21,
+    "domain": 4,
+    "general": 22
+  }
+}

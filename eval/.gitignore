@@ -1,0 +1,6 @@
+# Source docs (large, copied from docs repo)
+data/source_docs/
+
+# Generated intermediates
+data/chunks_compact.json
+data/generated_qa.json

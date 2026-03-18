@@ -1,0 +1,5268 @@
+[
+  {
+    "id": "007b1380-2411-45f1-8298-82b60532e56c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0009",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Compliance and Certifications",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Data Classification and Protection",
+        "Encryption Implementation",
+        "Data at Rest"
+      ],
+      "doc_type": "api",
+      "chunk_index": 9,
+      "total_chunks": 10,
+      "word_count": 152,
+      "last_updated": "2026-02-21T03:32:55.883659+00:00"
+    }
+  },
+  {
+    "id": "0084485c-b48c-41ac-823d-932c5f0f27a9",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "055eabd6_0002",
+      "source_file": "docs/ciroos-docs/docs/investigationdetails.md",
+      "title": "Investigation Details",
+      "section": "The Thinking of Investigating Pane (Left Pane)",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Investigation Details",
+        "The Thinking of Investigating Pane (Left Pane)"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 2,
+      "total_chunks": 7,
+      "word_count": 166,
+      "last_updated": "2026-02-21T03:32:55.884125+00:00"
+    }
+  },
+  {
+    "id": "041ce191-0196-4e04-949e-4768cda66526",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "a8b8ecf1_0003",
+      "source_file": "docs/ciroos-docs/docs/domain/kubernetesdashboard.md",
+      "title": "Kubernetes Dashboard",
+      "section": "Cluster Overview Flyout (In-Depth Analysis)",
+      "subsection": "C. Deeper Navigation",
+      "heading_hierarchy": [
+        "Kubernetes Dashboard",
+        "Cluster Overview Flyout (In-Depth Analysis)",
+        "C. Deeper Navigation"
+      ],
+      "doc_type": "domain",
+      "chunk_index": 3,
+      "total_chunks": 4,
+      "word_count": 50,
+      "last_updated": "2026-02-21T03:32:55.883921+00:00"
+    }
+  },
+  {
+    "id": "04499844-8a1d-40e4-b7ba-ae5d02eecd18",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0025",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": "Datadog Configuration",
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Tool-Specific Configuration Examples",
+        "Splunk Configuration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 25,
+      "total_chunks": 30,
+      "word_count": 127,
+      "last_updated": "2026-02-21T03:32:54.611989+00:00"
+    }
+  },
+  {
+    "id": "046769c7-98ee-4808-9915-d53fb447eecb",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0005",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Security Architecture",
+      "subsection": "Security Governance",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Security Architecture",
+        "Data Security",
+        "Data Isolation"
+      ],
+      "doc_type": "api",
+      "chunk_index": 5,
+      "total_chunks": 10,
+      "word_count": 173,
+      "last_updated": "2026-02-21T03:32:55.883590+00:00"
+    }
+  },
+  {
+    "id": "053f9f62-5713-43ef-80cc-4b1781f0a8b1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0003",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Ciroos Platform Requirements",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Prerequisites"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 3,
+      "total_chunks": 37,
+      "word_count": 126,
+      "last_updated": "2026-02-21T03:32:51.028140+00:00"
+    }
+  },
+  {
+    "id": "06386344-bce0-4236-88d1-b30dcd4dceed",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0011",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 5: Update Cluster Configuration",
+      "heading_hierarchy": [
+        "Wait for cluster to report",
+        "Expected Response"
+      ],
+      "doc_type": "api",
+      "chunk_index": 11,
+      "total_chunks": 25,
+      "word_count": 109,
+      "last_updated": "2026-02-21T03:32:54.611127+00:00"
+    }
+  },
+  {
+    "id": "09297ad4-9ec4-43ef-b6d1-9e0d5297388b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0021",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Onboarding Multiple AWS Accounts",
+      "heading_hierarchy": [
+        "This prevents role assumption without deleting the role"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 21,
+      "total_chunks": 25,
+      "word_count": 153,
+      "last_updated": "2026-02-21T03:32:51.968122+00:00"
+    }
+  },
+  {
+    "id": "09b44c31-8b6c-4510-8e3f-d49e29d18bef",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "b97b99af_0002",
+      "source_file": "docs/ciroos-docs/docs/onboarding_k8s.md",
+      "title": "Onboarding K8S",
+      "section": "Onboarding K8S",
+      "subsection": "Customize tool integration per Cluster",
+      "heading_hierarchy": [
+        "Customize tool integration per Cluster"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "word_count": 66,
+      "last_updated": "2026-02-21T03:32:55.884320+00:00"
+    }
+  },
+  {
+    "id": "0a189f1d-711b-43b1-8218-04bac98be819",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a80c766_0000",
+      "source_file": "docs/ciroos-docs/README-TESTING.md",
+      "title": "Testing Ciroos Documentation",
+      "section": "Installation",
+      "subsection": "2. Live Preview with Auto-Reload",
+      "heading_hierarchy": [
+        "Testing Ciroos Documentation"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 0,
+      "total_chunks": 6,
+      "word_count": 124,
+      "last_updated": "2026-02-21T03:32:51.027959+00:00"
+    }
+  },
+  {
+    "id": "0c1c599a-9433-4431-9810-981959d416c0",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0013",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 1: Integration Status Shows \"Error\"",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Verification and Validation",
+        "Long-Term Verification (30-60 minutes)"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 13,
+      "total_chunks": 25,
+      "word_count": 61,
+      "last_updated": "2026-02-21T03:32:51.967969+00:00"
+    }
+  },
+  {
+    "id": "0d472de8-f1bd-4563-8f10-55121d4f5b90",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0012",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Short-Term Verification (5-15 minutes)",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Verification and Validation",
+        "Immediate Verification (0-5 minutes)"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 12,
+      "total_chunks": 25,
+      "word_count": 179,
+      "last_updated": "2026-02-21T03:32:51.967957+00:00"
+    }
+  },
+  {
+    "id": "0de25892-364f-4c15-a18c-3c6c873ca877",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0025",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 3: Slow Query Performance",
+      "heading_hierarchy": [
+        "Query Dynatrace entities",
+        "Issue 3: Slow Query Performance"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 25,
+      "total_chunks": 37,
+      "word_count": 153,
+      "last_updated": "2026-02-21T03:32:51.028561+00:00"
+    }
+  },
+  {
+    "id": "0ee9f45a-8d1a-4a54-82b8-a887470aec18",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "6fbc7465_0000",
+      "source_file": "docs/ciroos-docs/docs/integrations/integrations.md",
+      "title": "Integrations",
+      "section": "Integrations",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Integrations"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 0,
+      "total_chunks": 2,
+      "word_count": 228,
+      "last_updated": "2026-02-21T03:32:55.884051+00:00"
+    }
+  },
+  {
+    "id": "0f7d846d-dec5-4f3e-b330-efe4a4e1c594",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0006",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 2: Generate Deployment Template",
+      "heading_hierarchy": [
+        "Save cluster ID for subsequent operations",
+        "Step 2: Generate Deployment Template"
+      ],
+      "doc_type": "api",
+      "chunk_index": 6,
+      "total_chunks": 25,
+      "word_count": 105,
+      "last_updated": "2026-02-21T03:32:53.488804+00:00"
+    }
+  },
+  {
+    "id": "0fee83cc-8cee-4491-b685-0ecd0e200e0a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "055eabd6_0001",
+      "source_file": "docs/ciroos-docs/docs/investigationdetails.md",
+      "title": "Investigation Details",
+      "section": "The Thinking of Investigating Pane (Left Pane)",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Investigation Details",
+        "At-a-Glance view of the input (Top Pane)"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 1,
+      "total_chunks": 7,
+      "word_count": 20,
+      "last_updated": "2026-02-21T03:32:55.884109+00:00"
+    }
+  },
+  {
+    "id": "1067ba75-56ce-4771-8d6c-c51f32e5de78",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0006",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 3: Test Tool Connection",
+      "heading_hierarchy": [
+        "Display supported authentication methods",
+        "Step 3: Test Tool Connection"
+      ],
+      "doc_type": "api",
+      "chunk_index": 6,
+      "total_chunks": 30,
+      "word_count": 121,
+      "last_updated": "2026-02-21T03:32:54.611597+00:00"
+    }
+  },
+  {
+    "id": "10e544e2-cd59-41f2-860c-e35625349498",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0001",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Overview",
+      "subsection": "Why Integrate Dynatrace with Ciroos?",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Overview"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 1,
+      "total_chunks": 37,
+      "word_count": 194,
+      "last_updated": "2026-02-21T03:32:51.028099+00:00"
+    }
+  },
+  {
+    "id": "1149766e-8537-4d52-ae21-9f080f6496b5",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0018",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 8: Get Tool Instance Details",
+      "heading_hierarchy": [
+        "Fetch fields with sample values and types",
+        "Step 7: List Tool Instances",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 18,
+      "total_chunks": 30,
+      "word_count": 140,
+      "last_updated": "2026-02-21T03:32:54.611782+00:00"
+    }
+  },
+  {
+    "id": "1313302c-2b42-4b72-8b17-26b6e67496fb",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0012",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 6: Repeat for Additional Clusters",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Observability Tool Integration",
+        "ServiceNow Integration",
+        "Feature Configuration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 12,
+      "total_chunks": 25,
+      "word_count": 113,
+      "last_updated": "2026-02-21T03:32:51.968425+00:00"
+    }
+  },
+  {
+    "id": "141ef710-e858-4fa7-96ca-f2dc0fb93ef1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3268ff85_0000",
+      "source_file": "docs/ciroos-docs/docs/overview.md",
+      "title": "Ciroos AI SRE Teammate Overview",
+      "section": "Core Solution Technology",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI SRE Teammate Overview",
+        "Product Summary"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 0,
+      "total_chunks": 2,
+      "word_count": 157,
+      "last_updated": "2026-02-21T03:32:55.884340+00:00"
+    }
+  },
+  {
+    "id": "143acf08-f15e-42ae-8ede-5f371c8721aa",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "c1c0b413_0002",
+      "source_file": "docs/ciroos-docs/docs/feature/auditlogs.md",
+      "title": "Audit Logs",
+      "section": "Configuration View",
+      "subsection": "Detailed Log Table",
+      "heading_hierarchy": [
+        "Audit Logs",
+        "Configuration View",
+        "Detailed Log Table"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 2,
+      "total_chunks": 7,
+      "word_count": 176,
+      "last_updated": "2026-02-21T03:32:55.883966+00:00"
+    }
+  },
+  {
+    "id": "170ab835-7f34-4a1c-8db1-00853deef056",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0018",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 7: Verify Integration Status",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Verification and Testing",
+        "Step 7: Verify Integration Status"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 18,
+      "total_chunks": 37,
+      "word_count": 133,
+      "last_updated": "2026-02-21T03:32:51.028408+00:00"
+    }
+  },
+  {
+    "id": "1874c2a4-1fa8-451e-8d52-4f9ea1dab864",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "ca41ec59_0002",
+      "source_file": "docs/ciroos-docs/docs/usermgmt.md",
+      "title": "Usermgmt",
+      "section": "Users and Resource Management",
+      "subsection": "User Roles and Privileges Matrix",
+      "heading_hierarchy": [
+        "Users and Resource Management",
+        "User Roles and Privileges Matrix"
+      ],
+      "doc_type": "general",
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "word_count": 263,
+      "last_updated": "2026-02-21T03:32:56.573973+00:00"
+    }
+  },
+  {
+    "id": "18762eb1-d3ea-4aba-a49d-fe65aff2fc78",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "c1c0b413_0006",
+      "source_file": "docs/ciroos-docs/docs/feature/auditlogs.md",
+      "title": "Audit Logs",
+      "section": "Integrations View",
+      "subsection": "Key Usage Scenarios",
+      "heading_hierarchy": [
+        "Audit Logs",
+        "Integrations View",
+        "Key Usage Scenarios"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "word_count": 85,
+      "last_updated": "2026-02-21T03:32:55.884028+00:00"
+    }
+  },
+  {
+    "id": "18cf69a8-2c64-4581-8769-2f8f1ac64e3b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0020",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Revoking Access",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Security and Compliance",
+        "Auditing the Integration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 20,
+      "total_chunks": 25,
+      "word_count": 118,
+      "last_updated": "2026-02-21T03:32:51.968100+00:00"
+    }
+  },
+  {
+    "id": "1a3d1bc3-c8da-40d9-8929-79b9390e9588",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0004",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure Cluster Details",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide",
+        "Cloud Account Onboarding (AWS)",
+        "Verification"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 4,
+      "total_chunks": 25,
+      "word_count": 171,
+      "last_updated": "2026-02-21T03:32:51.968296+00:00"
+    }
+  },
+  {
+    "id": "1ac98ee5-da0b-4828-a9f2-ff2745e8c007",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0014",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 7: List and Filter Kubernetes Clusters",
+      "heading_hierarchy": [
+        "Cloud Configuration",
+        "Expected Response"
+      ],
+      "doc_type": "api",
+      "chunk_index": 14,
+      "total_chunks": 25,
+      "word_count": 166,
+      "last_updated": "2026-02-21T03:32:54.611180+00:00"
+    }
+  },
+  {
+    "id": "1cff0ef0-4b30-4c99-a063-d8d0bc446e1c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0011",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 6: Repeat for Additional Clusters",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Observability Tool Integration",
+        "BigPanda Integration",
+        "Feature Configuration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 11,
+      "total_chunks": 25,
+      "word_count": 158,
+      "last_updated": "2026-02-21T03:32:51.968410+00:00"
+    }
+  },
+  {
+    "id": "1d45d356-88ba-4d2a-8560-c77dfeafb512",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0003",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 2: Generate IAM Template",
+      "heading_hierarchy": [
+        "Extract service IDs for IAM template",
+        "Expected Response"
+      ],
+      "doc_type": "api",
+      "chunk_index": 3,
+      "total_chunks": 24,
+      "word_count": 154,
+      "last_updated": "2026-02-21T03:32:53.488292+00:00"
+    }
+  },
+  {
+    "id": "1d8e32b1-0c59-4cfe-868f-53baf8ba40f0",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0010",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 6: Repeat for Additional Clusters",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Observability Tool Integration",
+        "Dynatrace Integration",
+        "Verification"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 10,
+      "total_chunks": 25,
+      "word_count": 136,
+      "last_updated": "2026-02-21T03:32:51.968389+00:00"
+    }
+  },
+  {
+    "id": "1e88f9a9-e102-48d3-a5b1-f595ab0fccb3",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0008",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": "Data Privacy and Third-Party AI Provider Controls",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "Data Privacy and Third-Party AI Provider Controls",
+        "User Controls for Data Privacy"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 8,
+      "total_chunks": 17,
+      "word_count": 417,
+      "last_updated": "2026-02-21T03:32:53.488015+00:00"
+    }
+  },
+  {
+    "id": "1e8d333a-f666-4470-8a7f-4ba062ccd2ce",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0034",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Appendix C: Dynatrace Management Zones",
+      "heading_hierarchy": [
+        "Map Dynatrace to Kubernetes cluster",
+        "Appendix",
+        "Appendix B: Dynatrace Entity Types"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 34,
+      "total_chunks": 37,
+      "word_count": 174,
+      "last_updated": "2026-02-21T03:32:51.028723+00:00"
+    }
+  },
+  {
+    "id": "1f2dc8ec-ec6c-4f3b-bc4e-a5b695e49854",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0004",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Security Architecture",
+      "subsection": "Environment Isolation",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Infrastructure Architecture",
+        "Development & Operations"
+      ],
+      "doc_type": "api",
+      "chunk_index": 4,
+      "total_chunks": 10,
+      "word_count": 154,
+      "last_updated": "2026-02-21T03:32:54.612120+00:00"
+    }
+  },
+  {
+    "id": "1f42c977-fe56-43b0-8ede-e2725fcb0017",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0002",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 1: List Available AWS Services",
+      "heading_hierarchy": [
+        "Cloud Account Onboarding - API Automation Guide",
+        "AWS Cloud Account Onboarding",
+        "Step 1: List Available AWS Services",
+        "API Endpoint"
+      ],
+      "doc_type": "api",
+      "chunk_index": 2,
+      "total_chunks": 24,
+      "word_count": 161,
+      "last_updated": "2026-02-21T03:32:53.488277+00:00"
+    }
+  },
+  {
+    "id": "20d95d3b-4940-4aef-ad5a-e2adae7c7e3f",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0028",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Automating Dynatrace Integration via API",
+      "heading_hierarchy": [
+        "Query Dynatrace entities",
+        "API Automation",
+        "Automating Dynatrace Integration via API"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 28,
+      "total_chunks": 37,
+      "word_count": 169,
+      "last_updated": "2026-02-21T03:32:51.028627+00:00"
+    }
+  },
+  {
+    "id": "21f4a32c-8c2f-4123-8cc1-189ba602e4fd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4a7f6c2b_0004",
+      "source_file": "docs/ciroos-docs/docs/investigationsoverview.md",
+      "title": "Investigations Dashboard Overview",
+      "section": "Top 10 Impacted Entities",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Investigations Dashboard Overview",
+        "Top 10 Impacted Entities"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "word_count": 73,
+      "last_updated": "2026-02-21T03:32:55.884272+00:00"
+    }
+  },
+  {
+    "id": "224d8411-cc8a-40fc-bbfc-3c6f113ae5be",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0013",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 6: Fetch Metadata from Tool Instance",
+      "heading_hierarchy": [
+        "Verify tool instance connection",
+        "Expected Response"
+      ],
+      "doc_type": "api",
+      "chunk_index": 13,
+      "total_chunks": 30,
+      "word_count": 64,
+      "last_updated": "2026-02-21T03:32:54.611707+00:00"
+    }
+  },
+  {
+    "id": "2327dbe9-01aa-4c87-894d-d794c1f1674e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0016",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 3: EKS Clusters Not Discovered",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Troubleshooting",
+        "Issue 3: EKS Clusters Not Discovered"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 16,
+      "total_chunks": 25,
+      "word_count": 141,
+      "last_updated": "2026-02-21T03:32:51.968029+00:00"
+    }
+  },
+  {
+    "id": "24a8e736-e730-4107-a134-1b3519d2f998",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0014",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "What Data is Accessed",
+      "subsection": "For Development Teams",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Using AI Investigation Results",
+        "Collaboration Features"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 14,
+      "total_chunks": 17,
+      "word_count": 142,
+      "last_updated": "2026-02-21T03:32:53.488108+00:00"
+    }
+  },
+  {
+    "id": "27affa71-3417-45fd-8fd1-ff1752927051",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a80c766_0002",
+      "source_file": "docs/ciroos-docs/README-TESTING.md",
+      "title": "Testing Ciroos Documentation",
+      "section": "MkDocs Configuration",
+      "subsection": "MkDocs Configuration (`mkdocs.yml`)",
+      "heading_hierarchy": [
+        "or using Homebrew on macOS",
+        "MkDocs Configuration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "word_count": 107,
+      "last_updated": "2026-02-21T03:32:51.027999+00:00"
+    }
+  },
+  {
+    "id": "27c2fe62-aed2-4f15-b9b1-0db33c9d765e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e809dcc3_0001",
+      "source_file": "docs/ciroos-docs/docs/ciroos_ai_rca_presentation.md",
+      "title": "Ciroos AI RCA Engine - Architecture & Security Overview",
+      "section": "Investigation Pipeline",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI RCA Engine - Architecture & Security Overview",
+        "Multi-Agent Architecture"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 1,
+      "total_chunks": 7,
+      "word_count": 168,
+      "last_updated": "2026-02-21T03:32:55.883731+00:00"
+    }
+  },
+  {
+    "id": "28214f41-7810-4958-ab65-54c54eeae32d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0003",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Infrastructure Architecture",
+      "subsection": "Cloud Infrastructure Components",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Infrastructure Architecture",
+        "Cloud Infrastructure Components"
+      ],
+      "doc_type": "api",
+      "chunk_index": 3,
+      "total_chunks": 10,
+      "word_count": 118,
+      "last_updated": "2026-02-21T03:32:54.612103+00:00"
+    }
+  },
+  {
+    "id": "28642644-bf87-4bb3-9437-fabf57651666",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "c1c0b413_0001",
+      "source_file": "docs/ciroos-docs/docs/feature/auditlogs.md",
+      "title": "Audit Logs",
+      "section": "Configuration View",
+      "subsection": "Summary Visualizations (Top Pane)",
+      "heading_hierarchy": [
+        "Audit Logs",
+        "Configuration View",
+        "Summary Visualizations (Top Pane)"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 1,
+      "total_chunks": 7,
+      "word_count": 168,
+      "last_updated": "2026-02-21T03:32:55.883950+00:00"
+    }
+  },
+  {
+    "id": "288e3b0a-a6bc-42c0-a841-60e87532bf78",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0018",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "EKS Configuration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 18,
+      "total_chunks": 24,
+      "word_count": 9,
+      "last_updated": "2026-02-21T03:32:53.488551+00:00"
+    }
+  },
+  {
+    "id": "2935e3b8-a6ae-49b0-b43c-b39bfb677209",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0003",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": null,
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 3,
+      "total_chunks": 17,
+      "word_count": 28,
+      "last_updated": "2026-02-21T03:32:51.968693+00:00"
+    }
+  },
+  {
+    "id": "2addda5d-b430-4aae-a164-16755682e85a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3268ff85_0001",
+      "source_file": "docs/ciroos-docs/docs/overview.md",
+      "title": "Ciroos AI SRE Teammate Overview",
+      "section": "The Ciroos Workflow (How it Works)",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI SRE Teammate Overview",
+        "The Ciroos Workflow (How it Works)"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "word_count": 149,
+      "last_updated": "2026-02-21T03:32:55.884355+00:00"
+    }
+  },
+  {
+    "id": "2c82f1b6-8ad9-4cb1-b876-0ff3721cf6cc",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0018",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 5: \"Access Denied\" Errors for Specific Services",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Troubleshooting",
+        "Issue 5: \"Access Denied\" Errors for Specific Services"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 18,
+      "total_chunks": 25,
+      "word_count": 104,
+      "last_updated": "2026-02-21T03:32:51.968064+00:00"
+    }
+  },
+  {
+    "id": "2edb1aec-ecb7-4fb7-9415-521410e6f092",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0000",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Overview",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 0,
+      "total_chunks": 25,
+      "word_count": 127,
+      "last_updated": "2026-02-21T03:32:51.028772+00:00"
+    }
+  },
+  {
+    "id": "2fe7887b-b18f-4ee6-87f3-8154a9cfe4bd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0020",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Mapping Dynatrace to Kubernetes Clusters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Data Categories and Capabilities",
+        "Data Mapping"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 20,
+      "total_chunks": 37,
+      "word_count": 158,
+      "last_updated": "2026-02-21T03:32:51.028461+00:00"
+    }
+  },
+  {
+    "id": "304380bd-9a1d-4d7a-9930-ba2cd9feb7dd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0015",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Workflow Overview",
+      "heading_hierarchy": [
+        "Get the managed identity client ID",
+        "Step 2: Register Azure Cloud Account",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 15,
+      "total_chunks": 24,
+      "word_count": 111,
+      "last_updated": "2026-02-21T03:32:53.488516+00:00"
+    }
+  },
+  {
+    "id": "30ede9b5-ebcd-467f-b91e-8e2d0c1d69c1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0017",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 4: CloudFormation Stack Creation Failed",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Troubleshooting",
+        "Issue 4: CloudFormation Stack Creation Failed"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 17,
+      "total_chunks": 25,
+      "word_count": 120,
+      "last_updated": "2026-02-21T03:32:51.968049+00:00"
+    }
+  },
+  {
+    "id": "3132e5a6-037f-4d09-81ab-116882b3073a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0022",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Appendix B: AWS CLI Quick Reference",
+      "heading_hierarchy": [
+        "This prevents role assumption without deleting the role",
+        "Multi-Account Strategy",
+        "Onboarding Multiple AWS Accounts",
+        "Recommended Account Priority"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 22,
+      "total_chunks": 25,
+      "word_count": 124,
+      "last_updated": "2026-02-21T03:32:51.968141+00:00"
+    }
+  },
+  {
+    "id": "31d3fbbe-3a70-4751-8ff9-60beb1d6e872",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0023",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": "Deployment Failures",
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Troubleshooting",
+        "Cluster Stays in \"Pending\" Status"
+      ],
+      "doc_type": "api",
+      "chunk_index": 23,
+      "total_chunks": 25,
+      "word_count": 104,
+      "last_updated": "2026-02-21T03:32:54.611472+00:00"
+    }
+  },
+  {
+    "id": "33282fd0-e099-4bf8-b3ab-a11c9e492541",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0024",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 3: Slow Query Performance",
+      "heading_hierarchy": [
+        "Get access token first (from Step 4 in Issue 1)"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 24,
+      "total_chunks": 37,
+      "word_count": 43,
+      "last_updated": "2026-02-21T03:32:51.028544+00:00"
+    }
+  },
+  {
+    "id": "35cd54a9-4393-4597-9064-cc7d69a91d46",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0017",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 7: List Tool Instances",
+      "heading_hierarchy": [
+        "Fetch fields with sample values and types",
+        "Expected Response - Fields (Detailed)"
+      ],
+      "doc_type": "api",
+      "chunk_index": 17,
+      "total_chunks": 30,
+      "word_count": 143,
+      "last_updated": "2026-02-21T03:32:54.611764+00:00"
+    }
+  },
+  {
+    "id": "36c0334c-40c2-4f17-8388-f91d28e19e73",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0013",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Workflow Overview",
+      "heading_hierarchy": [
+        "Delete cloud account",
+        "Azure Cloud Account Onboarding",
+        "Step 1: Generate Azure Identity Template",
+        "API Endpoint"
+      ],
+      "doc_type": "api",
+      "chunk_index": 13,
+      "total_chunks": 24,
+      "word_count": 110,
+      "last_updated": "2026-02-21T03:32:53.488485+00:00"
+    }
+  },
+  {
+    "id": "36db867b-bde6-4bf6-bab9-68d2a5a8dd71",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0020",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": "Best Practices",
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Error Handling and Best Practices",
+        "Common Error Codes"
+      ],
+      "doc_type": "api",
+      "chunk_index": 20,
+      "total_chunks": 24,
+      "word_count": 81,
+      "last_updated": "2026-02-21T03:32:53.488637+00:00"
+    }
+  },
+  {
+    "id": "38982ac5-f15e-461a-8c77-e3c9c2c52b14",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0012",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 5: Verify Tool Instance Connection",
+      "heading_hierarchy": [
+        "Create Grafana Loki tool instance",
+        "Expected Response"
+      ],
+      "doc_type": "api",
+      "chunk_index": 12,
+      "total_chunks": 30,
+      "word_count": 141,
+      "last_updated": "2026-02-21T03:32:54.611695+00:00"
+    }
+  },
+  {
+    "id": "3d3a22de-5a38-46a6-ae17-3d3d6cd20142",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "a8b8ecf1_0001",
+      "source_file": "docs/ciroos-docs/docs/domain/kubernetesdashboard.md",
+      "title": "Kubernetes Dashboard",
+      "section": "Cluster Overview Flyout (In-Depth Analysis)",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Kubernetes Dashboard",
+        "Cluster Table (Prioritization by Impact)"
+      ],
+      "doc_type": "domain",
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "word_count": 116,
+      "last_updated": "2026-02-21T03:32:55.883894+00:00"
+    }
+  },
+  {
+    "id": "3f151c2d-5b2b-4907-8b14-570a1ae51389",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "055eabd6_0003",
+      "source_file": "docs/ciroos-docs/docs/investigationdetails.md",
+      "title": "Investigation Details",
+      "section": "Generated RCA with Evidence (Right Pane)",
+      "subsection": "Summary Tab (Root Cause, Recommendations, Timeline)",
+      "heading_hierarchy": [
+        "Investigation Details",
+        "Generated RCA with Evidence (Right Pane)"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 3,
+      "total_chunks": 7,
+      "word_count": 123,
+      "last_updated": "2026-02-21T03:32:55.884139+00:00"
+    }
+  },
+  {
+    "id": "3fcafa7a-4f14-472f-9f8a-55a2992c1cf6",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0009",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 4: Verify Cluster Status",
+      "heading_hierarchy": [
+        "Deploy the template"
+      ],
+      "doc_type": "api",
+      "chunk_index": 9,
+      "total_chunks": 25,
+      "word_count": 114,
+      "last_updated": "2026-02-21T03:32:53.488863+00:00"
+    }
+  },
+  {
+    "id": "4128b46d-c109-4239-9c02-3d6012eb0f8e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0001",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Data Categories",
+      "heading_hierarchy": [
+        "Observability Tools Onboarding - API Automation Guide",
+        "Authentication"
+      ],
+      "doc_type": "api",
+      "chunk_index": 1,
+      "total_chunks": 30,
+      "word_count": 166,
+      "last_updated": "2026-02-21T03:32:54.611521+00:00"
+    }
+  },
+  {
+    "id": "41906d2f-b3c5-4c06-a616-c2412958cae8",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0014",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 1: Integration Status Shows \"Error\"",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Troubleshooting",
+        "Issue 1: Integration Status Shows \"Error\""
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 14,
+      "total_chunks": 25,
+      "word_count": 159,
+      "last_updated": "2026-02-21T03:32:51.967986+00:00"
+    }
+  },
+  {
+    "id": "424daa2e-1763-4a86-8e1f-8a8a73e22139",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0024",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Document Revision History",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Describe pod for events",
+        "Appendix B: AWS IAM Role Requirements"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 24,
+      "total_chunks": 25,
+      "word_count": 100,
+      "last_updated": "2026-02-21T03:32:51.968627+00:00"
+    }
+  },
+  {
+    "id": "4277f30d-8c7d-4a87-bca9-bd8b6707a4a5",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0009",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 6: Repeat for Additional Clusters",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Observability Tool Integration",
+        "Dynatrace Integration",
+        "Configuration Steps"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 9,
+      "total_chunks": 25,
+      "word_count": 116,
+      "last_updated": "2026-02-21T03:32:51.968372+00:00"
+    }
+  },
+  {
+    "id": "439b6747-332c-4a0c-ba42-0a19b0579a6c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0023",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Appendix C: Required IAM Permissions (Complete List)",
+      "heading_hierarchy": [
+        "List EC2 instances"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 23,
+      "total_chunks": 25,
+      "word_count": 109,
+      "last_updated": "2026-02-21T03:32:51.968170+00:00"
+    }
+  },
+  {
+    "id": "43cc113c-c735-412a-9a4a-c9f3a90e36d4",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0016",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 6: Fetch Metadata from Tool Instance",
+      "heading_hierarchy": [
+        "Fetch fields from a specific index (simple list)",
+        "Python Example - Fetch Fields (Detailed)"
+      ],
+      "doc_type": "api",
+      "chunk_index": 16,
+      "total_chunks": 30,
+      "word_count": 121,
+      "last_updated": "2026-02-21T03:32:54.611749+00:00"
+    }
+  },
+  {
+    "id": "43fd6b0b-b570-45de-ab7b-6cde52caacdb",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0026",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 4: Missing Logs or Traces",
+      "heading_hierarchy": [
+        "Query Dynatrace entities",
+        "Issue 4: Missing Logs or Traces"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 26,
+      "total_chunks": 37,
+      "word_count": 183,
+      "last_updated": "2026-02-21T03:32:51.028582+00:00"
+    }
+  },
+  {
+    "id": "440d7455-3ba6-4e54-92bb-d9ba32632aa2",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0021",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Mapping Dynatrace to Kubernetes Clusters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Cluster-Level Mapping",
+        "Mapping Dynatrace to Kubernetes Clusters",
+        "How to Configure Cluster Mapping"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 21,
+      "total_chunks": 37,
+      "word_count": 152,
+      "last_updated": "2026-02-21T03:32:51.028480+00:00"
+    }
+  },
+  {
+    "id": "4466ad26-4eae-42da-928a-f654c3669f70",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0002",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Infrastructure Architecture",
+      "subsection": "Cloud Infrastructure Components",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Security Commitments",
+        "AI Integration Options"
+      ],
+      "doc_type": "api",
+      "chunk_index": 2,
+      "total_chunks": 10,
+      "word_count": 76,
+      "last_updated": "2026-02-21T03:32:54.612089+00:00"
+    }
+  },
+  {
+    "id": "464b3cfa-5b2c-4a2e-961f-b58a0903dc6e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0021",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Check configmap",
+        "Issue 2: Pod CrashLoopBackOff"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 21,
+      "total_chunks": 25,
+      "word_count": 100,
+      "last_updated": "2026-02-21T03:32:51.968579+00:00"
+    }
+  },
+  {
+    "id": "473a5f09-b859-4771-a116-b56a556de02b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0005",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 3: Register AWS Cloud Account",
+      "heading_hierarchy": [
+        "Save template to file",
+        "Verification Step"
+      ],
+      "doc_type": "api",
+      "chunk_index": 5,
+      "total_chunks": 24,
+      "word_count": 103,
+      "last_updated": "2026-02-21T03:32:53.488323+00:00"
+    }
+  },
+  {
+    "id": "484b4de8-af63-4f3e-9c76-30beaa486bae",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e879a77b_0000",
+      "source_file": "docs/ciroos-docs/docs/alerts.md",
+      "title": "Ciroos Alerts Dashboard \ud83d\udea8",
+      "section": "Ciroos Alerts Dashboard \ud83d\udea8",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos Alerts Dashboard \ud83d\udea8"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 0,
+      "total_chunks": 5,
+      "word_count": 150,
+      "last_updated": "2026-02-21T03:32:53.488160+00:00"
+    }
+  },
+  {
+    "id": "4b20fa2c-ca15-419e-a927-a611424db3a5",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "998ff2da_0001",
+      "source_file": "docs/ciroos-docs/docs/ubp.md",
+      "title": "Ubp",
+      "section": "Behavior Patterns (UBP):",
+      "subsection": "User Behavior Patterns (UBP):",
+      "heading_hierarchy": [
+        "Behavior Patterns (UBP):",
+        "User Behavior Patterns (UBP):"
+      ],
+      "doc_type": "general",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "word_count": 94,
+      "last_updated": "2026-02-21T03:32:55.884394+00:00"
+    }
+  },
+  {
+    "id": "4be93731-2c99-4cdc-93fd-e0bae0d28acf",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0004",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "How the Integration Works",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Prerequisites",
+        "Authentication Method"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 4,
+      "total_chunks": 37,
+      "word_count": 187,
+      "last_updated": "2026-02-21T03:32:51.028164+00:00"
+    }
+  },
+  {
+    "id": "4db5ba50-0912-4862-9354-82eb7e70619c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0004",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure AWS Integration Parameters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "AWS Account Onboarding Process",
+        "Step 2: Configure AWS Integration Parameters"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 4,
+      "total_chunks": 25,
+      "word_count": 113,
+      "last_updated": "2026-02-21T03:32:51.028838+00:00"
+    }
+  },
+  {
+    "id": "4fb3c9f9-b0fc-4173-b56a-3782429f551d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0022",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 1: Connection Failed - Authentication Error",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Troubleshooting",
+        "Issue 1: Connection Failed - Authentication Error"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 22,
+      "total_chunks": 37,
+      "word_count": 224,
+      "last_updated": "2026-02-21T03:32:51.028505+00:00"
+    }
+  },
+  {
+    "id": "50343cbf-be1c-40ce-8e74-84dc420e7e45",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e809dcc3_0004",
+      "source_file": "docs/ciroos-docs/docs/ciroos_ai_rca_presentation.md",
+      "title": "Ciroos AI RCA Engine - Architecture & Security Overview",
+      "section": "Security Architecture Solution",
+      "subsection": "**4-Layer Defense Strategy**",
+      "heading_hierarchy": [
+        "Ciroos AI RCA Engine - Architecture & Security Overview",
+        "Security Layer Deep Dive",
+        "\ud83d\udee1\ufe0f **Guardrails Proxy**"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "word_count": 86,
+      "last_updated": "2026-02-21T03:32:55.883779+00:00"
+    }
+  },
+  {
+    "id": "50a1c5fd-c044-4544-a68a-45f8ffd3ace6",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0019",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "============================================================================="
+      ],
+      "doc_type": "api",
+      "chunk_index": 19,
+      "total_chunks": 25,
+      "word_count": 782,
+      "last_updated": "2026-02-21T03:32:54.611352+00:00"
+    }
+  },
+  {
+    "id": "521db243-cda8-4cba-9997-190fa162d153",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0027",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 5: OAuth Token Expired",
+      "heading_hierarchy": [
+        "Query Dynatrace entities",
+        "Issue 5: OAuth Token Expired"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 27,
+      "total_chunks": 37,
+      "word_count": 175,
+      "last_updated": "2026-02-21T03:32:51.028602+00:00"
+    }
+  },
+  {
+    "id": "522cea18-2f23-4e71-9395-f26f99322ee7",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0007",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Complete AWS Account Registration in Ciroos",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "AWS Account Onboarding Process",
+        "Step 4: Retrieve IAM Role ARN"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 7,
+      "total_chunks": 25,
+      "word_count": 85,
+      "last_updated": "2026-02-21T03:32:51.967840+00:00"
+    }
+  },
+  {
+    "id": "569ac14d-517a-4e55-9b40-706c8a99475d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0007",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 4: Verify Cloud Account Connection",
+      "heading_hierarchy": [
+        "Save the account ID for future operations"
+      ],
+      "doc_type": "api",
+      "chunk_index": 7,
+      "total_chunks": 24,
+      "word_count": 109,
+      "last_updated": "2026-02-21T03:32:53.488354+00:00"
+    }
+  },
+  {
+    "id": "58b007a8-7906-424b-b0fb-3a5ddf839669",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0013",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "What Data is Accessed",
+      "subsection": "Taking Action",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Using AI Investigation Results",
+        "Investigation Reports"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 13,
+      "total_chunks": 17,
+      "word_count": 125,
+      "last_updated": "2026-02-21T03:32:53.488093+00:00"
+    }
+  },
+  {
+    "id": "5912a4e5-6029-49c2-bf38-7eabc4bc2d90",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0004",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 1: List Supported Observability Tools",
+      "heading_hierarchy": [
+        "Display tool information",
+        "Expected Response"
+      ],
+      "doc_type": "api",
+      "chunk_index": 4,
+      "total_chunks": 30,
+      "word_count": 118,
+      "last_updated": "2026-02-21T03:32:54.611565+00:00"
+    }
+  },
+  {
+    "id": "5997084d-65e3-4b58-b6df-68cd04505df2",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0008",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure OAuth Client Permissions",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Dynatrace Configuration",
+        "Step 2: Configure OAuth Client Permissions",
+        "2.2 Required Permissions",
+        "Core Data Access Scopes"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 8,
+      "total_chunks": 37,
+      "word_count": 149,
+      "last_updated": "2026-02-21T03:32:51.028230+00:00"
+    }
+  },
+  {
+    "id": "5c298117-6708-472a-a200-4b1315b1e7ed",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0019",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 9: Update Tool Instance",
+      "heading_hierarchy": [
+        "Auth info (credentials are redacted)"
+      ],
+      "doc_type": "api",
+      "chunk_index": 19,
+      "total_chunks": 30,
+      "word_count": 116,
+      "last_updated": "2026-02-21T03:32:54.611797+00:00"
+    }
+  },
+  {
+    "id": "5cf409e4-f323-45a1-b5b6-38371a20f57c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0015",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Limitations and Considerations",
+      "subsection": null,
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Best Practices",
+        "For Security Teams"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 15,
+      "total_chunks": 17,
+      "word_count": 115,
+      "last_updated": "2026-02-21T03:32:53.488123+00:00"
+    }
+  },
+  {
+    "id": "5d0c077e-0c53-42e3-ade8-066acc7895ba",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "055eabd6_0006",
+      "source_file": "docs/ciroos-docs/docs/investigationdetails.md",
+      "title": "Investigation Details",
+      "section": "Generated RCA with Evidence (Right Pane)",
+      "subsection": "Topology Tab",
+      "heading_hierarchy": [
+        "Investigation Details",
+        "Generated RCA with Evidence (Right Pane)",
+        "Changes Tab"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "word_count": 101,
+      "last_updated": "2026-02-21T03:32:55.884177+00:00"
+    }
+  },
+  {
+    "id": "5d3f68a8-f07f-4208-b7f7-4c2357162aa9",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0015",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 6: Fetch Metadata from Tool Instance",
+      "heading_hierarchy": [
+        "Verify tool instance connection",
+        "Step 6: Fetch Metadata from Tool Instance",
+        "Python Example - Fetch Indexes"
+      ],
+      "doc_type": "api",
+      "chunk_index": 15,
+      "total_chunks": 30,
+      "word_count": 118,
+      "last_updated": "2026-02-21T03:32:54.611735+00:00"
+    }
+  },
+  {
+    "id": "5d5b37bb-ba32-45d9-a5c5-723f5f13fdbb",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "998ff2da_0000",
+      "source_file": "docs/ciroos-docs/docs/ubp.md",
+      "title": "Ubp",
+      "section": "Behavior Patterns (UBP):",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Behavior Patterns (UBP):"
+      ],
+      "doc_type": "general",
+      "chunk_index": 0,
+      "total_chunks": 2,
+      "word_count": 219,
+      "last_updated": "2026-02-21T03:32:55.884381+00:00"
+    }
+  },
+  {
+    "id": "5dce33a3-7210-4f83-bb6f-7b4203ff05b3",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "a8b8ecf1_0000",
+      "source_file": "docs/ciroos-docs/docs/domain/kubernetesdashboard.md",
+      "title": "Kubernetes Dashboard",
+      "section": "Kubernetes Dashboard",
+      "subsection": "Operational Activity and RCA",
+      "heading_hierarchy": [
+        "Kubernetes Dashboard"
+      ],
+      "doc_type": "domain",
+      "chunk_index": 0,
+      "total_chunks": 4,
+      "word_count": 150,
+      "last_updated": "2026-02-21T03:32:55.883878+00:00"
+    }
+  },
+  {
+    "id": "5dd08747-d7d3-44f2-9221-89d7bf6fcacd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0004",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 2: Generate IAM Template",
+      "heading_hierarchy": [
+        "Extract service IDs for IAM template",
+        "Step 2: Generate IAM Template",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 4,
+      "total_chunks": 24,
+      "word_count": 131,
+      "last_updated": "2026-02-21T03:32:53.488309+00:00"
+    }
+  },
+  {
+    "id": "60108b81-d84b-46b8-b6f8-072c9c6fbda5",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0008",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Data Classification and Protection",
+      "subsection": "Data Access Controls",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Data Classification and Protection",
+        "Data Access Controls"
+      ],
+      "doc_type": "api",
+      "chunk_index": 8,
+      "total_chunks": 10,
+      "word_count": 104,
+      "last_updated": "2026-02-21T03:32:55.883643+00:00"
+    }
+  },
+  {
+    "id": "6176686b-151b-4640-92ad-bf3463d849d0",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0022",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Describe pod for events",
+        "Issue 3: Integration Tool Not Connecting"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 22,
+      "total_chunks": 25,
+      "word_count": 163,
+      "last_updated": "2026-02-21T03:32:51.968598+00:00"
+    }
+  },
+  {
+    "id": "617d528e-3b45-4c61-b01b-6681709f30ca",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0001",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Integration Service Credentials",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide",
+        "Prerequisites"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 1,
+      "total_chunks": 25,
+      "word_count": 127,
+      "last_updated": "2026-02-21T03:32:51.968223+00:00"
+    }
+  },
+  {
+    "id": "6187515f-4e6e-4893-a2e7-e8e9ef2dfa37",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0012",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 5: Update Cluster Configuration",
+      "heading_hierarchy": [
+        "Wait for cluster to report",
+        "Step 5: Update Cluster Configuration",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 12,
+      "total_chunks": 25,
+      "word_count": 132,
+      "last_updated": "2026-02-21T03:32:54.611145+00:00"
+    }
+  },
+  {
+    "id": "6203ba73-72ce-43fc-b8d8-3445e087385c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0009",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure OAuth Client Permissions",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Dynatrace Configuration",
+        "Step 2: Configure OAuth Client Permissions",
+        "2.2 Required Permissions",
+        "User Experience & Session Data"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 9,
+      "total_chunks": 37,
+      "word_count": 74,
+      "last_updated": "2026-02-21T03:32:51.028242+00:00"
+    }
+  },
+  {
+    "id": "62c451f4-2685-4ac8-8420-25d725d1f9ca",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0032",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Appendix A: Required Dynatrace API Scopes",
+      "heading_hierarchy": [
+        "Map Dynatrace to Kubernetes cluster",
+        "Appendix",
+        "Appendix A: Required Dynatrace API Scopes",
+        "Environment-Level Scopes",
+        "Core Storage & Data Access"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 32,
+      "total_chunks": 37,
+      "word_count": 170,
+      "last_updated": "2026-02-21T03:32:51.028687+00:00"
+    }
+  },
+  {
+    "id": "636230f0-a5ef-4746-9ccb-679806753b82",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0015",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Cluster-Level Customizations",
+        "Available Customization Options",
+        "1. Observability Tools Mapping"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 15,
+      "total_chunks": 25,
+      "word_count": 115,
+      "last_updated": "2026-02-21T03:32:51.968490+00:00"
+    }
+  },
+  {
+    "id": "648725c9-97ff-466e-96d5-d864fb67d35a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0024",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": null,
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Jenkins Complete Pipeline"
+      ],
+      "doc_type": "api",
+      "chunk_index": 24,
+      "total_chunks": 30,
+      "word_count": 422,
+      "last_updated": "2026-02-21T03:32:54.611974+00:00"
+    }
+  },
+  {
+    "id": "6735b4c0-55eb-4c06-ae88-4cc5b34d6927",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0015",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 8: Configure GitHub Integration (Optional)",
+      "heading_hierarchy": [
+        "Cloud Configuration",
+        "Step 7: List and Filter Kubernetes Clusters",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 15,
+      "total_chunks": 25,
+      "word_count": 151,
+      "last_updated": "2026-02-21T03:32:54.611198+00:00"
+    }
+  },
+  {
+    "id": "67a4a62b-997a-451a-86cf-3cbcc2c5b8f1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0011",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Trust Policy",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "CloudFormation Template Details",
+        "IAM Permissions Granted",
+        "Databases"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 11,
+      "total_chunks": 25,
+      "word_count": 154,
+      "last_updated": "2026-02-21T03:32:51.967934+00:00"
+    }
+  },
+  {
+    "id": "67c19369-bdbb-47cd-a5b3-63bc3849eb4c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "055eabd6_0000",
+      "source_file": "docs/ciroos-docs/docs/investigationdetails.md",
+      "title": "Investigation Details",
+      "section": "Investigation Details",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Investigation Details"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 0,
+      "total_chunks": 7,
+      "word_count": 366,
+      "last_updated": "2026-02-21T03:32:55.884100+00:00"
+    }
+  },
+  {
+    "id": "6859406c-ef4e-4f24-8c6a-e74bb947b0ec",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0036",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Document Revision History",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Map Dynatrace to Kubernetes cluster",
+        "Appendix",
+        "Appendix E: Support and Resources"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 36,
+      "total_chunks": 37,
+      "word_count": 124,
+      "last_updated": "2026-02-21T03:32:51.028756+00:00"
+    }
+  },
+  {
+    "id": "69a78939-654e-4010-919e-e7fb19868334",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0022",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Appendix: Jenkins Complete Pipeline",
+      "subsection": null,
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Support and Troubleshooting",
+        "Verification Failures"
+      ],
+      "doc_type": "api",
+      "chunk_index": 22,
+      "total_chunks": 24,
+      "word_count": 96,
+      "last_updated": "2026-02-21T03:32:53.488666+00:00"
+    }
+  },
+  {
+    "id": "69d84fa8-a653-4d67-ab20-a85db03278c4",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e879a77b_0002",
+      "source_file": "docs/ciroos-docs/docs/alerts.md",
+      "title": "Ciroos Alerts Dashboard \ud83d\udea8",
+      "section": "2. Alerts Table",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos Alerts Dashboard \ud83d\udea8",
+        "Summary Widgets",
+        "Time Range Selector"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "word_count": 40,
+      "last_updated": "2026-02-21T03:32:53.488199+00:00"
+    }
+  },
+  {
+    "id": "6a1c4e7e-6eec-40a5-9be3-b32876e30a11",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0000",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Overview",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 0,
+      "total_chunks": 25,
+      "word_count": 130,
+      "last_updated": "2026-02-21T03:32:51.968204+00:00"
+    }
+  },
+  {
+    "id": "6b32c39e-fbae-4e76-92f7-7e843f0a9dc5",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4a7f6c2b_0003",
+      "source_file": "docs/ciroos-docs/docs/investigationsoverview.md",
+      "title": "Investigations Dashboard Overview",
+      "section": "Investigations Table",
+      "subsection": "Example Investigation (Short Summary Pane)",
+      "heading_hierarchy": [
+        "Investigations Dashboard Overview",
+        "Investigations Table",
+        "Additional Table Features"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "word_count": 121,
+      "last_updated": "2026-02-21T03:32:55.884259+00:00"
+    }
+  },
+  {
+    "id": "6d6e5882-0580-49e0-b7da-09d5f37d40e9",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0007",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Data Classification and Protection",
+      "subsection": "Data Categories",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Data Classification and Protection",
+        "Data Categories"
+      ],
+      "doc_type": "api",
+      "chunk_index": 7,
+      "total_chunks": 10,
+      "word_count": 144,
+      "last_updated": "2026-02-21T03:32:55.883628+00:00"
+    }
+  },
+  {
+    "id": "6da2ebdb-f36b-499d-aa56-743a7867a385",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "a8b8ecf1_0002",
+      "source_file": "docs/ciroos-docs/docs/domain/kubernetesdashboard.md",
+      "title": "Kubernetes Dashboard",
+      "section": "Cluster Overview Flyout (In-Depth Analysis)",
+      "subsection": "Cluster Metadata",
+      "heading_hierarchy": [
+        "Kubernetes Dashboard",
+        "Cluster Overview Flyout (In-Depth Analysis)",
+        "Performance and Utilization"
+      ],
+      "doc_type": "domain",
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "word_count": 137,
+      "last_updated": "2026-02-21T03:32:55.883909+00:00"
+    }
+  },
+  {
+    "id": "6e8d32ba-baca-428a-86da-851ebf8d11ec",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0017",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Cluster-Level Customizations",
+        "Available Customization Options",
+        "4. Slack Integration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 17,
+      "total_chunks": 25,
+      "word_count": 114,
+      "last_updated": "2026-02-21T03:32:51.968523+00:00"
+    }
+  },
+  {
+    "id": "6fe35f54-eacd-4a08-b32a-c8ff050854ff",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0001",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Overview",
+      "subsection": "Investigation Process",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "How AI Investigation Works",
+        "Investigation Process"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 1,
+      "total_chunks": 17,
+      "word_count": 200,
+      "last_updated": "2026-02-21T03:32:51.968666+00:00"
+    }
+  },
+  {
+    "id": "71dce1a6-45d4-481c-8f5b-3372bddca81c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a80c766_0005",
+      "source_file": "docs/ciroos-docs/README-TESTING.md",
+      "title": "Testing Ciroos Documentation",
+      "section": "Questions or Issues?",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Edit mkdocs.yml and change theme",
+        "Next Steps"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "word_count": 91,
+      "last_updated": "2026-02-21T03:32:51.028056+00:00"
+    }
+  },
+  {
+    "id": "71f487aa-4668-4d0b-9c95-a88a529d4eeb",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0016",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Configure Connection Parameters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Ciroos Platform Configuration",
+        "Step 6: Complete Authentication",
+        "6.2 Configure OAuth 2.0 Authentication"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 16,
+      "total_chunks": 37,
+      "word_count": 127,
+      "last_updated": "2026-02-21T03:32:51.028372+00:00"
+    }
+  },
+  {
+    "id": "72011661-19ec-4b80-a1c8-b9c08a251a4a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0001",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 1: List Available AWS Services",
+      "heading_hierarchy": [
+        "Cloud Account Onboarding - API Automation Guide",
+        "API Base URL"
+      ],
+      "doc_type": "api",
+      "chunk_index": 1,
+      "total_chunks": 24,
+      "word_count": 101,
+      "last_updated": "2026-02-21T03:32:53.488257+00:00"
+    }
+  },
+  {
+    "id": "72810ceb-014f-4da5-b541-050a70ca64a4",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0019",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Compliance Considerations",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Security and Compliance",
+        "Security Best Practices"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 19,
+      "total_chunks": 25,
+      "word_count": 146,
+      "last_updated": "2026-02-21T03:32:51.968081+00:00"
+    }
+  },
+  {
+    "id": "73043cf3-1de7-47fc-a35d-f9e3f545b3d2",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0002",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 1: Create Kubernetes Cluster Registration",
+      "heading_hierarchy": [
+        "Kubernetes Cluster Onboarding - API Automation Guide",
+        "Available Cluster Features",
+        "Step 1: Create Kubernetes Cluster Registration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 2,
+      "total_chunks": 25,
+      "word_count": 22,
+      "last_updated": "2026-02-21T03:32:53.488743+00:00"
+    }
+  },
+  {
+    "id": "7413cddd-f900-424c-8f10-f65c2b6ca3c6",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0002",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Required AWS Permissions",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Prerequisites"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 2,
+      "total_chunks": 25,
+      "word_count": 132,
+      "last_updated": "2026-02-21T03:32:51.028806+00:00"
+    }
+  },
+  {
+    "id": "75141c25-1aab-4eca-9774-943ed452bf1b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0005",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure Cluster Details",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide",
+        "Kubernetes Cluster Onboarding (EKS)",
+        "Step 2: Configure Cluster Details",
+        "Feature Configuration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 5,
+      "total_chunks": 25,
+      "word_count": 130,
+      "last_updated": "2026-02-21T03:32:51.968313+00:00"
+    }
+  },
+  {
+    "id": "763aef97-f202-4c5f-b382-d5005e38a027",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0000",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Overview",
+      "subsection": "Key Benefits",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 0,
+      "total_chunks": 17,
+      "word_count": 182,
+      "last_updated": "2026-02-21T03:32:51.968648+00:00"
+    }
+  },
+  {
+    "id": "76a8a020-a78c-4f5c-b34f-886e52cdbc5d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0013",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Configure Connection Parameters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Ciroos Platform Configuration",
+        "Step 5: Configure Connection Parameters"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 13,
+      "total_chunks": 37,
+      "word_count": 100,
+      "last_updated": "2026-02-21T03:32:51.028324+00:00"
+    }
+  },
+  {
+    "id": "7808ee73-4eff-43f9-aea7-8050f6ce3f0d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "970ed566_0001",
+      "source_file": "docs/ciroos-docs/docs/askciroos.md",
+      "title": "Askciroos",
+      "section": "Chat Experience",
+      "subsection": "Chat Experience",
+      "heading_hierarchy": [
+        "Chat Experience"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "word_count": 126,
+      "last_updated": "2026-02-21T03:32:55.883696+00:00"
+    }
+  },
+  {
+    "id": "7b3458f6-cbce-49cf-b74a-7978423f5706",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0008",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 3: Test Tool Connection",
+      "heading_hierarchy": [
+        "Display capabilities"
+      ],
+      "doc_type": "api",
+      "chunk_index": 8,
+      "total_chunks": 30,
+      "word_count": 125,
+      "last_updated": "2026-02-21T03:32:54.611631+00:00"
+    }
+  },
+  {
+    "id": "7cd33b4d-b827-4778-9099-be7a3877e799",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0016",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Summary",
+      "subsection": null,
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Getting Help"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 16,
+      "total_chunks": 17,
+      "word_count": 130,
+      "last_updated": "2026-02-21T03:32:53.488139+00:00"
+    }
+  },
+  {
+    "id": "7d16720e-af82-4d1f-b3e4-29e7f6ea49f3",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0003",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 1: Initiate AWS Integration in Ciroos",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Prerequisites",
+        "Ciroos Platform Access"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 3,
+      "total_chunks": 25,
+      "word_count": 139,
+      "last_updated": "2026-02-21T03:32:51.028823+00:00"
+    }
+  },
+  {
+    "id": "7dc9695d-0317-4fb1-a268-22ac1919cbcd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0006",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure OAuth Client Permissions",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Dynatrace Configuration",
+        "Step 1: Create OAuth Client in Dynatrace",
+        "1.2 Access OAuth Client Configuration"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 6,
+      "total_chunks": 37,
+      "word_count": 157,
+      "last_updated": "2026-02-21T03:32:51.028199+00:00"
+    }
+  },
+  {
+    "id": "7ea4c6a9-bae2-44cd-8fac-d976154babfb",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0017",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Configure Connection Parameters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Ciroos Platform Configuration",
+        "Step 6: Complete Authentication",
+        "6.3 Alternative: API Key Authentication"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 17,
+      "total_chunks": 37,
+      "word_count": 135,
+      "last_updated": "2026-02-21T03:32:51.028390+00:00"
+    }
+  },
+  {
+    "id": "7f73b332-231b-4d6c-80be-a096b39e6b1f",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0010",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 6: Onboard EKS Cluster for Monitoring",
+      "heading_hierarchy": [
+        "Process clusters by region",
+        "Step 6: Onboard EKS Cluster for Monitoring"
+      ],
+      "doc_type": "api",
+      "chunk_index": 10,
+      "total_chunks": 24,
+      "word_count": 108,
+      "last_updated": "2026-02-21T03:32:53.488404+00:00"
+    }
+  },
+  {
+    "id": "7f7e0d2f-72e1-48f0-a5fb-d74036c7b4fa",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0026",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": "Common Error Codes",
+      "heading_hierarchy": [
+        "For EU site",
+        "Grafana Loki Configuration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 26,
+      "total_chunks": 30,
+      "word_count": 142,
+      "last_updated": "2026-02-21T03:32:54.612004+00:00"
+    }
+  },
+  {
+    "id": "7fda2ead-e5c4-4825-94ee-5b130fd7f6d8",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0003",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Complete AWS Account Registration",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide",
+        "Cloud Account Onboarding (AWS)",
+        "Step 4: Retrieve IAM Role ARN"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 3,
+      "total_chunks": 25,
+      "word_count": 123,
+      "last_updated": "2026-02-21T03:32:51.968277+00:00"
+    }
+  },
+  {
+    "id": "7ff6e8e0-f6b2-465e-8785-90ffefa6cb27",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0013",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 6: Get Comprehensive Cluster Configuration",
+      "heading_hierarchy": [
+        "Update cluster features and tags",
+        "Step 6: Get Comprehensive Cluster Configuration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 13,
+      "total_chunks": 25,
+      "word_count": 114,
+      "last_updated": "2026-02-21T03:32:54.611163+00:00"
+    }
+  },
+  {
+    "id": "813b71d4-e9f6-4c4f-b404-81a45a7c4a76",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0012",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 3: Generate Client Credentials",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Dynatrace Configuration",
+        "Step 3: Generate Client Credentials",
+        "3.2 Document OAuth Client Details"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 12,
+      "total_chunks": 37,
+      "word_count": 144,
+      "last_updated": "2026-02-21T03:32:51.028307+00:00"
+    }
+  },
+  {
+    "id": "814d7f5a-0403-47c5-b9f8-228d26460250",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e879a77b_0001",
+      "source_file": "docs/ciroos-docs/docs/alerts.md",
+      "title": "Ciroos Alerts Dashboard \ud83d\udea8",
+      "section": "Summary Widgets",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos Alerts Dashboard \ud83d\udea8",
+        "Summary Widgets"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "word_count": 149,
+      "last_updated": "2026-02-21T03:32:53.488177+00:00"
+    }
+  },
+  {
+    "id": "84324d50-4cc2-48e2-b7db-623ffb25508f",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "ca41ec59_0004",
+      "source_file": "docs/ciroos-docs/docs/usermgmt.md",
+      "title": "Usermgmt",
+      "section": "Users and Resource Management",
+      "subsection": "Alerts and Investigations: User and Project access",
+      "heading_hierarchy": [
+        "Users and Resource Management",
+        "Alerts and Investigations: User and Project access"
+      ],
+      "doc_type": "general",
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "word_count": 26,
+      "last_updated": "2026-02-21T03:32:56.574001+00:00"
+    }
+  },
+  {
+    "id": "843c628e-1df6-4d54-8b6a-3b5e950ff88e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0000",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Authentication",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Cloud Account Onboarding - API Automation Guide",
+        "Overview"
+      ],
+      "doc_type": "api",
+      "chunk_index": 0,
+      "total_chunks": 24,
+      "word_count": 104,
+      "last_updated": "2026-02-21T03:32:53.488244+00:00"
+    }
+  },
+  {
+    "id": "85f19d8d-5900-4208-b153-8cd51c992f50",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0031",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Appendix A: Required Dynatrace API Scopes",
+      "heading_hierarchy": [
+        "Map Dynatrace to Kubernetes cluster",
+        "Appendix",
+        "Appendix A: Required Dynatrace API Scopes"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 31,
+      "total_chunks": 37,
+      "word_count": 49,
+      "last_updated": "2026-02-21T03:32:51.028672+00:00"
+    }
+  },
+  {
+    "id": "86bfe744-877b-4e12-8ac9-04d5e69dff17",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0011",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 3: Generate Client Credentials",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Dynatrace Configuration",
+        "Step 2: Configure OAuth Client Permissions",
+        "2.3 Complete OAuth Client Creation"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 11,
+      "total_chunks": 37,
+      "word_count": 141,
+      "last_updated": "2026-02-21T03:32:51.028289+00:00"
+    }
+  },
+  {
+    "id": "86d3face-9a9c-461b-8f75-81f7865bd7d3",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0014",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Configure Connection Parameters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Ciroos Platform Configuration",
+        "Step 5: Configure Connection Parameters",
+        "5.2 Dynatrace Environment Configuration"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 14,
+      "total_chunks": 37,
+      "word_count": 149,
+      "last_updated": "2026-02-21T03:32:51.028342+00:00"
+    }
+  },
+  {
+    "id": "8710f29e-5bb5-45e7-9adb-6373ccbf65de",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "c1c0b413_0000",
+      "source_file": "docs/ciroos-docs/docs/feature/auditlogs.md",
+      "title": "Audit Logs",
+      "section": "Configuration View",
+      "subsection": "Summary Visualizations (Top Pane)",
+      "heading_hierarchy": [
+        "Audit Logs"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 0,
+      "total_chunks": 7,
+      "word_count": 93,
+      "last_updated": "2026-02-21T03:32:55.883934+00:00"
+    }
+  },
+  {
+    "id": "87fb9120-468d-41ee-ac95-cfc10157d42c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0020",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": null,
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Jenkins Complete Pipeline"
+      ],
+      "doc_type": "api",
+      "chunk_index": 20,
+      "total_chunks": 25,
+      "word_count": 418,
+      "last_updated": "2026-02-21T03:32:54.611403+00:00"
+    }
+  },
+  {
+    "id": "88a90cd3-19aa-4000-9ea2-c8b4810c4be2",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "b97b99af_0000",
+      "source_file": "docs/ciroos-docs/docs/onboarding_k8s.md",
+      "title": "Onboarding K8S",
+      "section": "Onboarding K8S",
+      "subsection": "Onboarding Kubernetes Clusters",
+      "heading_hierarchy": [
+        "Onboarding Kubernetes Clusters"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "word_count": 113,
+      "last_updated": "2026-02-21T03:32:55.884287+00:00"
+    }
+  },
+  {
+    "id": "8b492cc9-f05a-4dcc-a74c-d9e7551e9786",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0018",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Collaboration Platform Integration",
+        "Microsoft Teams Integration",
+        "Configuration Steps"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 18,
+      "total_chunks": 25,
+      "word_count": 104,
+      "last_updated": "2026-02-21T03:32:51.968536+00:00"
+    }
+  },
+  {
+    "id": "8c7cb750-a103-4f79-bd58-564c10d179e8",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4a7f6c2b_0002",
+      "source_file": "docs/ciroos-docs/docs/investigationsoverview.md",
+      "title": "Investigations Dashboard Overview",
+      "section": "Investigations Table",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Investigations Dashboard Overview",
+        "Investigations Table"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "word_count": 210,
+      "last_updated": "2026-02-21T03:32:55.884236+00:00"
+    }
+  },
+  {
+    "id": "8ca79757-9260-4529-985e-ab963fbbd304",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e809dcc3_0000",
+      "source_file": "docs/ciroos-docs/docs/ciroos_ai_rca_presentation.md",
+      "title": "Ciroos AI RCA Engine - Architecture & Security Overview",
+      "section": "System Overview",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI RCA Engine - Architecture & Security Overview",
+        "System Overview"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 0,
+      "total_chunks": 7,
+      "word_count": 119,
+      "last_updated": "2026-02-21T03:32:55.883713+00:00"
+    }
+  },
+  {
+    "id": "8ce271ff-6aeb-452f-828a-ec83e8b75fb2",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e809dcc3_0002",
+      "source_file": "docs/ciroos-docs/docs/ciroos_ai_rca_presentation.md",
+      "title": "Ciroos AI RCA Engine - Architecture & Security Overview",
+      "section": "Security Architecture Solution",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI RCA Engine - Architecture & Security Overview",
+        "Security Architecture - The Challenge"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 2,
+      "total_chunks": 7,
+      "word_count": 64,
+      "last_updated": "2026-02-21T03:32:55.883744+00:00"
+    }
+  },
+  {
+    "id": "8cee2833-0f45-43a0-b60c-2e93ac2da5de",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0003",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 1: Create Kubernetes Cluster Registration",
+      "heading_hierarchy": [
+        "Kubernetes Cluster Onboarding - API Automation Guide",
+        "Available Cluster Features",
+        "Step 1: Create Kubernetes Cluster Registration",
+        "Request Body Parameters"
+      ],
+      "doc_type": "api",
+      "chunk_index": 3,
+      "total_chunks": 25,
+      "word_count": 108,
+      "last_updated": "2026-02-21T03:32:53.488757+00:00"
+    }
+  },
+  {
+    "id": "8fc54452-d73c-44fe-adf3-38e1699aa8fc",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0014",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 6: Fetch Metadata from Tool Instance",
+      "heading_hierarchy": [
+        "Verify tool instance connection",
+        "Step 6: Fetch Metadata from Tool Instance",
+        "Request Body Parameters"
+      ],
+      "doc_type": "api",
+      "chunk_index": 14,
+      "total_chunks": 30,
+      "word_count": 109,
+      "last_updated": "2026-02-21T03:32:54.611720+00:00"
+    }
+  },
+  {
+    "id": "91cbe506-c52e-495b-90f1-16de0613c326",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0017",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Update repositories",
+        "Step 9: Delete Kubernetes Cluster",
+        "API Endpoint"
+      ],
+      "doc_type": "api",
+      "chunk_index": 17,
+      "total_chunks": 25,
+      "word_count": 104,
+      "last_updated": "2026-02-21T03:32:54.611245+00:00"
+    }
+  },
+  {
+    "id": "920938e4-e1cb-4519-a525-79cb96da04bd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "055eabd6_0004",
+      "source_file": "docs/ciroos-docs/docs/investigationdetails.md",
+      "title": "Investigation Details",
+      "section": "Generated RCA with Evidence (Right Pane)",
+      "subsection": "Evidence Tab",
+      "heading_hierarchy": [
+        "Investigation Details",
+        "Generated RCA with Evidence (Right Pane)",
+        "Summary Tab (Root Cause, Recommendations, Timeline)",
+        "Similar Investigations"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "word_count": 56,
+      "last_updated": "2026-02-21T03:32:55.884150+00:00"
+    }
+  },
+  {
+    "id": "920a04df-9028-4149-b294-1648e34c5242",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0009",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 5: List EKS Clusters",
+      "heading_hierarchy": [
+        "Check if verification was successful",
+        "Step 5: List EKS Clusters"
+      ],
+      "doc_type": "api",
+      "chunk_index": 9,
+      "total_chunks": 24,
+      "word_count": 125,
+      "last_updated": "2026-02-21T03:32:53.488390+00:00"
+    }
+  },
+  {
+    "id": "929dae82-9ae5-44fd-a6e6-11d366f9de40",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0005",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 1: Create Kubernetes Cluster Registration",
+      "heading_hierarchy": [
+        "Save cluster ID for subsequent operations"
+      ],
+      "doc_type": "api",
+      "chunk_index": 5,
+      "total_chunks": 25,
+      "word_count": 166,
+      "last_updated": "2026-02-21T03:32:53.488790+00:00"
+    }
+  },
+  {
+    "id": "944761ef-a08c-429e-ba8e-3d78f6778fcd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "7c1ca0d2_0002",
+      "source_file": "docs/ciroos-docs/docs/collab.md",
+      "title": "Collab",
+      "section": "Collab",
+      "subsection": "Investigation Notifications",
+      "heading_hierarchy": [
+        "Investigation Notifications"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "word_count": 85,
+      "last_updated": "2026-02-21T03:32:55.883859+00:00"
+    }
+  },
+  {
+    "id": "993f076a-70b1-4ada-b963-ad2a10b6e596",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0024",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Document Revision History",
+      "subsection": null,
+      "heading_hierarchy": [
+        "List RDS instances",
+        "Appendix D: Support and Resources"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 24,
+      "total_chunks": 25,
+      "word_count": 101,
+      "last_updated": "2026-02-21T03:32:51.968184+00:00"
+    }
+  },
+  {
+    "id": "99434acb-6092-499f-9992-91ade8e33b6b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e7010005_0000",
+      "source_file": "docs/README.md",
+      "title": "docs",
+      "section": "docs",
+      "subsection": null,
+      "heading_hierarchy": [
+        "docs"
+      ],
+      "doc_type": "general",
+      "chunk_index": 0,
+      "total_chunks": 1,
+      "word_count": 4,
+      "last_updated": "2026-02-21T03:32:51.027913+00:00"
+    }
+  },
+  {
+    "id": "99b2f8bf-751f-4d41-a7c6-6761cec20e27",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0006",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 3: Deploy CloudFormation Template",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "AWS Account Onboarding Process",
+        "Step 3: Deploy CloudFormation Template",
+        "Option B: Manual Template Deployment"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 6,
+      "total_chunks": 25,
+      "word_count": 122,
+      "last_updated": "2026-02-21T03:32:51.967812+00:00"
+    }
+  },
+  {
+    "id": "9a89c1b2-83b1-4972-997e-e1438bb04ec5",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0007",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Verify Cluster Status",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide",
+        "Kubernetes Cluster Onboarding (EKS)",
+        "Step 4: Deploy Monitoring Agents",
+        "Deploy to Kubernetes Cluster"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 7,
+      "total_chunks": 25,
+      "word_count": 146,
+      "last_updated": "2026-02-21T03:32:51.968346+00:00"
+    }
+  },
+  {
+    "id": "9abaf1c6-ea76-47b1-afb8-59854d079836",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0014",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Workflow Overview",
+      "heading_hierarchy": [
+        "Save template"
+      ],
+      "doc_type": "api",
+      "chunk_index": 14,
+      "total_chunks": 24,
+      "word_count": 171,
+      "last_updated": "2026-02-21T03:32:53.488502+00:00"
+    }
+  },
+  {
+    "id": "9b149f79-e59e-4e09-b4da-919036158749",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0009",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 4: Create Tool Instance",
+      "heading_hierarchy": [
+        "Test Datadog connection",
+        "Step 4: Create Tool Instance"
+      ],
+      "doc_type": "api",
+      "chunk_index": 9,
+      "total_chunks": 30,
+      "word_count": 123,
+      "last_updated": "2026-02-21T03:32:54.611645+00:00"
+    }
+  },
+  {
+    "id": "9bdc17fc-20cc-4912-ac84-a69eead807fa",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "c1c0b413_0005",
+      "source_file": "docs/ciroos-docs/docs/feature/auditlogs.md",
+      "title": "Audit Logs",
+      "section": "Integrations View",
+      "subsection": "B. Detailed Log Table",
+      "heading_hierarchy": [
+        "Audit Logs",
+        "Integrations View",
+        "B. Detailed Log Table"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "word_count": 192,
+      "last_updated": "2026-02-21T03:32:55.884006+00:00"
+    }
+  },
+  {
+    "id": "a14cc73e-93b4-435d-b4cc-f46f88b18dc1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0014",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Webhook Integration",
+        "Configure Alerting Tools"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 14,
+      "total_chunks": 25,
+      "word_count": 113,
+      "last_updated": "2026-02-21T03:32:51.968475+00:00"
+    }
+  },
+  {
+    "id": "a2eb4d1a-ee2b-4873-bb17-85ecee6c4cad",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0010",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 4: Create Tool Instance",
+      "heading_hierarchy": [
+        "Test Datadog connection",
+        "Step 4: Create Tool Instance",
+        "Python Example - Splunk"
+      ],
+      "doc_type": "api",
+      "chunk_index": 10,
+      "total_chunks": 30,
+      "word_count": 103,
+      "last_updated": "2026-02-21T03:32:54.611659+00:00"
+    }
+  },
+  {
+    "id": "a38f680e-6f25-440d-a037-a300167fdbaa",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0008",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 3: Deploy Monitoring Agents to Kubernetes",
+      "heading_hierarchy": [
+        "Apply using kustomize",
+        "Step 3: Deploy Monitoring Agents to Kubernetes",
+        "Python Example with kubectl"
+      ],
+      "doc_type": "api",
+      "chunk_index": 8,
+      "total_chunks": 25,
+      "word_count": 121,
+      "last_updated": "2026-02-21T03:32:53.488839+00:00"
+    }
+  },
+  {
+    "id": "a5cacf40-d3e3-40d2-b994-fbd0937c9e57",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0005",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 3: Deploy CloudFormation Template",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "AWS Account Onboarding Process",
+        "Step 2: Configure AWS Integration Parameters",
+        "Automatic EKS Discovery"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 5,
+      "total_chunks": 25,
+      "word_count": 173,
+      "last_updated": "2026-02-21T03:32:51.028874+00:00"
+    }
+  },
+  {
+    "id": "a5dcfc49-9e29-43a1-9e77-d1c66a07898e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e809dcc3_0003",
+      "source_file": "docs/ciroos-docs/docs/ciroos_ai_rca_presentation.md",
+      "title": "Ciroos AI RCA Engine - Architecture & Security Overview",
+      "section": "Security Architecture Solution",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI RCA Engine - Architecture & Security Overview",
+        "Security Architecture Solution"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 3,
+      "total_chunks": 7,
+      "word_count": 123,
+      "last_updated": "2026-02-21T03:32:55.883764+00:00"
+    }
+  },
+  {
+    "id": "a6a15121-feda-4392-92e4-3f9a8a4116ee",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0015",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 2: No Resources Discovered",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Troubleshooting",
+        "Issue 2: No Resources Discovered"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 15,
+      "total_chunks": 25,
+      "word_count": 150,
+      "last_updated": "2026-02-21T03:32:51.968004+00:00"
+    }
+  },
+  {
+    "id": "a710009f-01ea-47fe-922d-f73b99e9c22b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0029",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Security Best Practices",
+      "heading_hierarchy": [
+        "Create Dynatrace integration",
+        "Expected Response"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 29,
+      "total_chunks": 37,
+      "word_count": 187,
+      "last_updated": "2026-02-21T03:32:51.028646+00:00"
+    }
+  },
+  {
+    "id": "a867f19c-46b5-457b-ab73-7dd185433250",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0000",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Authentication",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Kubernetes Cluster Onboarding - API Automation Guide",
+        "Overview"
+      ],
+      "doc_type": "api",
+      "chunk_index": 0,
+      "total_chunks": 25,
+      "word_count": 112,
+      "last_updated": "2026-02-21T03:32:53.488719+00:00"
+    }
+  },
+  {
+    "id": "a9719e3c-3862-4352-906c-b67c3759c694",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0009",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": "Data Privacy and Third-Party AI Provider Controls",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "Data Privacy and Third-Party AI Provider Controls",
+        "Compliance and Certifications"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 9,
+      "total_chunks": 17,
+      "word_count": 52,
+      "last_updated": "2026-02-21T03:32:53.488029+00:00"
+    }
+  },
+  {
+    "id": "a9d9888e-8634-4b57-855f-6457e4d4ccad",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0024",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Support and Additional Resources",
+      "subsection": null,
+      "heading_hierarchy": [
+        "For Helm issues"
+      ],
+      "doc_type": "api",
+      "chunk_index": 24,
+      "total_chunks": 25,
+      "word_count": 90,
+      "last_updated": "2026-02-21T03:32:54.611489+00:00"
+    }
+  },
+  {
+    "id": "ae091874-4909-47b1-9db2-5372dd664527",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0010",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure OAuth Client Permissions",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Dynatrace Configuration",
+        "Step 2: Configure OAuth Client Permissions",
+        "2.2 Required Permissions",
+        "Configuration & Settings"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 10,
+      "total_chunks": 37,
+      "word_count": 243,
+      "last_updated": "2026-02-21T03:32:51.028271+00:00"
+    }
+  },
+  {
+    "id": "b096e4e9-4c6e-41f4-92b9-1397274d3f4e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0023",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "============================================================================="
+      ],
+      "doc_type": "api",
+      "chunk_index": 23,
+      "total_chunks": 30,
+      "word_count": 710,
+      "last_updated": "2026-02-21T03:32:54.611927+00:00"
+    }
+  },
+  {
+    "id": "b0dc642e-78ba-40b3-a806-49cca4db9e51",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "b97b99af_0001",
+      "source_file": "docs/ciroos-docs/docs/onboarding_k8s.md",
+      "title": "Onboarding K8S",
+      "section": "Bulk Cluster onboarding",
+      "subsection": "Onboarding Kubernetes Clusters",
+      "heading_hierarchy": [
+        "Onboarding Kubernetes Clusters",
+        "Bulk Cluster onboarding"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "word_count": 260,
+      "last_updated": "2026-02-21T03:32:55.884308+00:00"
+    }
+  },
+  {
+    "id": "b173277c-7f50-4d5d-8ef5-7f1585794e30",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e879a77b_0004",
+      "source_file": "docs/ciroos-docs/docs/alerts.md",
+      "title": "Ciroos Alerts Dashboard \ud83d\udea8",
+      "section": "2. Alerts Table",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos Alerts Dashboard \ud83d\udea8",
+        "2. Alerts Table",
+        "View Options"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "word_count": 41,
+      "last_updated": "2026-02-21T03:32:53.488229+00:00"
+    }
+  },
+  {
+    "id": "b2626c3c-7fa1-411e-96c8-2f8e9bfd2b22",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0022",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": "Best Practices",
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Error Handling and Best Practices",
+        "Best Practices"
+      ],
+      "doc_type": "api",
+      "chunk_index": 22,
+      "total_chunks": 25,
+      "word_count": 122,
+      "last_updated": "2026-02-21T03:32:54.611431+00:00"
+    }
+  },
+  {
+    "id": "b637ac18-f874-498c-a2ba-a15a501ac05a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0019",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Verification and Troubleshooting",
+        "Cluster Status Verification",
+        "Expected Active Status Indicators"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 19,
+      "total_chunks": 25,
+      "word_count": 112,
+      "last_updated": "2026-02-21T03:32:51.968551+00:00"
+    }
+  },
+  {
+    "id": "b6fa12bd-7fd0-4e03-9df4-ff70160b586a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0021",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": "Best Practices",
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Error Handling and Best Practices",
+        "Best Practices"
+      ],
+      "doc_type": "api",
+      "chunk_index": 21,
+      "total_chunks": 24,
+      "word_count": 123,
+      "last_updated": "2026-02-21T03:32:53.488652+00:00"
+    }
+  },
+  {
+    "id": "b8af3b29-034e-4da6-8ed6-92d51c8e0662",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0006",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": "Data Privacy and Third-Party AI Provider Controls",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "Audit and Compliance"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 6,
+      "total_chunks": 17,
+      "word_count": 100,
+      "last_updated": "2026-02-21T03:32:53.487939+00:00"
+    }
+  },
+  {
+    "id": "b9019ad1-676f-4cd1-865c-a3f9f5706306",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e879a77b_0003",
+      "source_file": "docs/ciroos-docs/docs/alerts.md",
+      "title": "Ciroos Alerts Dashboard \ud83d\udea8",
+      "section": "2. Alerts Table",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos Alerts Dashboard \ud83d\udea8",
+        "2. Alerts Table"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "word_count": 215,
+      "last_updated": "2026-02-21T03:32:53.488219+00:00"
+    }
+  },
+  {
+    "id": "b94449d2-71a6-4a91-8ad6-b4ee6e9c2ef2",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0005",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 2: Get Authentication Requirements",
+      "heading_hierarchy": [
+        "Display tool information",
+        "Step 2: Get Authentication Requirements"
+      ],
+      "doc_type": "api",
+      "chunk_index": 5,
+      "total_chunks": 30,
+      "word_count": 182,
+      "last_updated": "2026-02-21T03:32:54.611584+00:00"
+    }
+  },
+  {
+    "id": "bf8265b9-4409-467a-b5e0-bf0f1ee873e0",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0012",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Workflow Overview",
+      "heading_hierarchy": [
+        "Update account metadata",
+        "List All Cloud Accounts"
+      ],
+      "doc_type": "api",
+      "chunk_index": 12,
+      "total_chunks": 24,
+      "word_count": 124,
+      "last_updated": "2026-02-21T03:32:53.488466+00:00"
+    }
+  },
+  {
+    "id": "c13fd2aa-236c-46a7-9940-1177c0523910",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0006",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 3: Register AWS Cloud Account",
+      "heading_hierarchy": [
+        "Get the Role ARN from stack outputs",
+        "Step 3: Register AWS Cloud Account",
+        "Request Body Parameters"
+      ],
+      "doc_type": "api",
+      "chunk_index": 6,
+      "total_chunks": 24,
+      "word_count": 158,
+      "last_updated": "2026-02-21T03:32:53.488338+00:00"
+    }
+  },
+  {
+    "id": "c1cf782e-77ad-4545-9b92-3833ee09ff2e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0011",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": "Data Privacy Summary",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "Data Privacy and Third-Party AI Provider Controls",
+        "Transparency and Trust"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 11,
+      "total_chunks": 17,
+      "word_count": 148,
+      "last_updated": "2026-02-21T03:32:53.488062+00:00"
+    }
+  },
+  {
+    "id": "c36497c7-7419-45cd-b74f-0d6b310ccf43",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "7c1ca0d2_0001",
+      "source_file": "docs/ciroos-docs/docs/collab.md",
+      "title": "Collab",
+      "section": "Establish Connections",
+      "subsection": "Establish Connections",
+      "heading_hierarchy": [
+        "Establish Connections"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "word_count": 126,
+      "last_updated": "2026-02-21T03:32:55.883838+00:00"
+    }
+  },
+  {
+    "id": "c6867e9e-aa9f-485a-b446-425a4ee68086",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0000",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Prerequisites",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Observability Tools Onboarding - API Automation Guide",
+        "Overview"
+      ],
+      "doc_type": "api",
+      "chunk_index": 0,
+      "total_chunks": 30,
+      "word_count": 135,
+      "last_updated": "2026-02-21T03:32:54.611505+00:00"
+    }
+  },
+  {
+    "id": "c8545101-5d83-4ccf-8959-0988717f2564",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0017",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "USER CONFIGURABLE PARAMETERS",
+        "Step 4: Onboard AKS Cluster",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 17,
+      "total_chunks": 24,
+      "word_count": 118,
+      "last_updated": "2026-02-21T03:32:53.488543+00:00"
+    }
+  },
+  {
+    "id": "c942735b-b65a-4c17-a7cb-3918063efe89",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0013",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Configuration Steps",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Observability Tool Integration",
+        "ServiceNow Integration",
+        "Required ServiceNow Permissions"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 13,
+      "total_chunks": 25,
+      "word_count": 103,
+      "last_updated": "2026-02-21T03:32:51.968453+00:00"
+    }
+  },
+  {
+    "id": "c962ab2a-0399-4c50-816d-43ce0dacb908",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0003",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 1: List Supported Observability Tools",
+      "heading_hierarchy": [
+        "List supported tools (no auth required for this endpoint)"
+      ],
+      "doc_type": "api",
+      "chunk_index": 3,
+      "total_chunks": 30,
+      "word_count": 62,
+      "last_updated": "2026-02-21T03:32:54.611548+00:00"
+    }
+  },
+  {
+    "id": "cd9bf58a-84fc-4dd0-8091-ee0533844a73",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0021",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Delete tool instance",
+        "Complete End-to-End Python Script"
+      ],
+      "doc_type": "api",
+      "chunk_index": 21,
+      "total_chunks": 30,
+      "word_count": 106,
+      "last_updated": "2026-02-21T03:32:54.611829+00:00"
+    }
+  },
+  {
+    "id": "cde2d314-6ffe-44a7-a06e-35dcd830bab1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a80c766_0004",
+      "source_file": "docs/ciroos-docs/README-TESTING.md",
+      "title": "Testing Ciroos Documentation",
+      "section": "AsciiDoc Alternative",
+      "subsection": null,
+      "heading_hierarchy": [
+        "or using Homebrew on macOS",
+        "Common Issues",
+        "Missing Dependencies"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 4,
+      "total_chunks": 6,
+      "word_count": 124,
+      "last_updated": "2026-02-21T03:32:51.028031+00:00"
+    }
+  },
+  {
+    "id": "cdf80025-8dd6-4ef0-a7f3-35e0432e019e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0020",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Check if pods are running"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 20,
+      "total_chunks": 25,
+      "word_count": 108,
+      "last_updated": "2026-02-21T03:32:51.968565+00:00"
+    }
+  },
+  {
+    "id": "ce18e08f-b2ce-4264-9432-b1c7d5d3dc47",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0011",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 6: Onboard EKS Cluster for Monitoring",
+      "heading_hierarchy": [
+        "Process clusters by region",
+        "Step 6: Onboard EKS Cluster for Monitoring",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 11,
+      "total_chunks": 24,
+      "word_count": 127,
+      "last_updated": "2026-02-21T03:32:53.488420+00:00"
+    }
+  },
+  {
+    "id": "ce79fa06-8a10-4111-92db-c2c840b4725f",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0002",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 1: List Supported Observability Tools",
+      "heading_hierarchy": [
+        "Observability Tools Onboarding - API Automation Guide",
+        "Data Categories and Mapping Types",
+        "Mapping Types"
+      ],
+      "doc_type": "api",
+      "chunk_index": 2,
+      "total_chunks": 30,
+      "word_count": 101,
+      "last_updated": "2026-02-21T03:32:54.611536+00:00"
+    }
+  },
+  {
+    "id": "d15c8d55-5e34-4acb-9069-db08cccebf69",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0027",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": "Best Practices",
+      "heading_hierarchy": [
+        "For EU site",
+        "Error Handling and Best Practices",
+        "Best Practices"
+      ],
+      "doc_type": "api",
+      "chunk_index": 27,
+      "total_chunks": 30,
+      "word_count": 132,
+      "last_updated": "2026-02-21T03:32:54.612019+00:00"
+    }
+  },
+  {
+    "id": "d16f499c-3872-4385-8552-0f09c90a18ad",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0019",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Supported Data Categories",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Verification and Testing",
+        "Step 8: Test Integration Functionality",
+        "8.2 Test Problem Retrieval"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 19,
+      "total_chunks": 37,
+      "word_count": 157,
+      "last_updated": "2026-02-21T03:32:51.028424+00:00"
+    }
+  },
+  {
+    "id": "d1b25e4b-d67b-4903-ac8b-911b69382062",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0023",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Issue 2: Connection Successful but No Data",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Troubleshooting",
+        "Issue 2: Connection Successful but No Data"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 23,
+      "total_chunks": 37,
+      "word_count": 212,
+      "last_updated": "2026-02-21T03:32:51.028533+00:00"
+    }
+  },
+  {
+    "id": "d4a7f570-b881-4bde-950c-696bec5109d7",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "970ed566_0000",
+      "source_file": "docs/ciroos-docs/docs/askciroos.md",
+      "title": "Askciroos",
+      "section": "Askciroos",
+      "subsection": "Uae Case and Need",
+      "heading_hierarchy": [
+        "Uae Case and Need"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 0,
+      "total_chunks": 2,
+      "word_count": 139,
+      "last_updated": "2026-02-21T03:32:55.883675+00:00"
+    }
+  },
+  {
+    "id": "d5ec1984-2235-4729-a4fa-dea06bb89eaf",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a80c766_0001",
+      "source_file": "docs/ciroos-docs/README-TESTING.md",
+      "title": "Testing Ciroos Documentation",
+      "section": "Project Structure",
+      "subsection": null,
+      "heading_hierarchy": [
+        "or using Homebrew on macOS",
+        "Testing the Documentation",
+        "3. View the Architecture Document"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 1,
+      "total_chunks": 6,
+      "word_count": 109,
+      "last_updated": "2026-02-21T03:32:51.027983+00:00"
+    }
+  },
+  {
+    "id": "d5fba609-9697-4917-b9c3-0187fd76136a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0016",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Workflow Overview",
+      "heading_hierarchy": [
+        "USER CONFIGURABLE PARAMETERS",
+        "Step 4: Onboard AKS Cluster",
+        "API Endpoint"
+      ],
+      "doc_type": "api",
+      "chunk_index": 16,
+      "total_chunks": 24,
+      "word_count": 100,
+      "last_updated": "2026-02-21T03:32:53.488528+00:00"
+    }
+  },
+  {
+    "id": "d6d707dd-b50f-4f41-8d27-383d76618bf5",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "055eabd6_0005",
+      "source_file": "docs/ciroos-docs/docs/investigationdetails.md",
+      "title": "Investigation Details",
+      "section": "Generated RCA with Evidence (Right Pane)",
+      "subsection": "Evidence Tab",
+      "heading_hierarchy": [
+        "Investigation Details",
+        "Generated RCA with Evidence (Right Pane)",
+        "Evidence Tab"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "word_count": 110,
+      "last_updated": "2026-02-21T03:32:55.884164+00:00"
+    }
+  },
+  {
+    "id": "d75903be-c800-463e-9a33-e5d6ddc94bd0",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e809dcc3_0006",
+      "source_file": "docs/ciroos-docs/docs/ciroos_ai_rca_presentation.md",
+      "title": "Ciroos AI RCA Engine - Architecture & Security Overview",
+      "section": "Security Architecture Solution",
+      "subsection": "**\ud83d\udd11 Credential Isolation**",
+      "heading_hierarchy": [
+        "Ciroos AI RCA Engine - Architecture & Security Overview",
+        "Multi-Layer API Access Control",
+        "**\ud83d\udd11 Credential Isolation**"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "word_count": 34,
+      "last_updated": "2026-02-21T03:32:55.883806+00:00"
+    }
+  },
+  {
+    "id": "d848d63f-6cc1-452a-9a4a-93b5200d04a3",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0018",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Platform Configuration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 18,
+      "total_chunks": 25,
+      "word_count": 105,
+      "last_updated": "2026-02-21T03:32:54.611260+00:00"
+    }
+  },
+  {
+    "id": "d8d2a115-613e-4571-b90d-1203c9e7492b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0023",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Appendix A: Reference Documentation",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Describe pod for events",
+        "Getting Help"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 23,
+      "total_chunks": 25,
+      "word_count": 111,
+      "last_updated": "2026-02-21T03:32:51.968615+00:00"
+    }
+  },
+  {
+    "id": "d93e2cb6-638e-4b29-8a9b-79736d1de96d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "ca41ec59_0001",
+      "source_file": "docs/ciroos-docs/docs/usermgmt.md",
+      "title": "Usermgmt",
+      "section": "Users and Resource Management",
+      "subsection": "Roles",
+      "heading_hierarchy": [
+        "Users and Resource Management",
+        "Roles"
+      ],
+      "doc_type": "general",
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "word_count": 121,
+      "last_updated": "2026-02-21T03:32:56.573936+00:00"
+    }
+  },
+  {
+    "id": "d9b75b9a-1da4-47b3-99d7-1bd73bbe877d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0023",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Appendix: Jenkins Complete Pipeline",
+      "subsection": null,
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Appendix: Jenkins Complete Pipeline"
+      ],
+      "doc_type": "api",
+      "chunk_index": 23,
+      "total_chunks": 24,
+      "word_count": 311,
+      "last_updated": "2026-02-21T03:32:53.488703+00:00"
+    }
+  },
+  {
+    "id": "d9c9c5c3-526d-4a8e-ad8e-40e6e26638b7",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0020",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 10: Delete Tool Instance",
+      "heading_hierarchy": [
+        "Tags",
+        "Step 9: Update Tool Instance",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 20,
+      "total_chunks": 30,
+      "word_count": 124,
+      "last_updated": "2026-02-21T03:32:54.611816+00:00"
+    }
+  },
+  {
+    "id": "d9fe90c9-4349-4814-a53f-7cf1f5453a90",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0005",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": null,
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "How Your Data is Protected",
+        "Credential Management"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 5,
+      "total_chunks": 17,
+      "word_count": 128,
+      "last_updated": "2026-02-21T03:32:51.968750+00:00"
+    }
+  },
+  {
+    "id": "db473b2a-993e-43ee-aaab-65a43f677f78",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "6fbc7465_0001",
+      "source_file": "docs/ciroos-docs/docs/integrations/integrations.md",
+      "title": "Integrations",
+      "section": "Integrations",
+      "subsection": "Managing Connections",
+      "heading_hierarchy": [
+        "Integrations",
+        "Configuring Connections"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "word_count": 111,
+      "last_updated": "2026-02-21T03:32:55.884066+00:00"
+    }
+  },
+  {
+    "id": "db7ce256-910f-449c-9be1-d5b8b437fcc4",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0007",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 3: Test Tool Connection",
+      "heading_hierarchy": [
+        "Display supported authentication methods",
+        "Step 3: Test Tool Connection",
+        "Python Example - Splunk with API Key"
+      ],
+      "doc_type": "api",
+      "chunk_index": 7,
+      "total_chunks": 30,
+      "word_count": 122,
+      "last_updated": "2026-02-21T03:32:54.611616+00:00"
+    }
+  },
+  {
+    "id": "dca0540b-601e-49b4-bf15-c9771925dde7",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0009",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "What the Template Creates",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "AWS Account Onboarding Process",
+        "Step 6: Verify Integration Status"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 9,
+      "total_chunks": 25,
+      "word_count": 133,
+      "last_updated": "2026-02-21T03:32:51.967902+00:00"
+    }
+  },
+  {
+    "id": "dd9152c7-d6e0-40f3-866d-5ca7f7b1e813",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0008",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 6: Repeat for Additional Clusters",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Step 6: Repeat for Additional Clusters"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 8,
+      "total_chunks": 25,
+      "word_count": 47,
+      "last_updated": "2026-02-21T03:32:51.968357+00:00"
+    }
+  },
+  {
+    "id": "de131983-e2b2-4fec-9a45-0952a610189b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0007",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": "Data Privacy and Third-Party AI Provider Controls",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "Data Privacy and Third-Party AI Provider Controls",
+        "Guardrails for Data Exposure"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 7,
+      "total_chunks": 17,
+      "word_count": 221,
+      "last_updated": "2026-02-21T03:32:53.487973+00:00"
+    }
+  },
+  {
+    "id": "de8f1413-1f78-4b2e-9167-43677f540f45",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "7c1ca0d2_0000",
+      "source_file": "docs/ciroos-docs/docs/collab.md",
+      "title": "Collab",
+      "section": "Collab",
+      "subsection": "Use Cases",
+      "heading_hierarchy": [
+        "Overview"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "word_count": 141,
+      "last_updated": "2026-02-21T03:32:55.883822+00:00"
+    }
+  },
+  {
+    "id": "df834aeb-4baa-433c-b9b4-f03db57161af",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0007",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 3: Deploy Monitoring Agents to Kubernetes",
+      "heading_hierarchy": [
+        "Deploy using Helm"
+      ],
+      "doc_type": "api",
+      "chunk_index": 7,
+      "total_chunks": 25,
+      "word_count": 83,
+      "last_updated": "2026-02-21T03:32:53.488818+00:00"
+    }
+  },
+  {
+    "id": "dfab06bb-b756-4faa-aef1-412b79532da1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0016",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 9: Delete Kubernetes Cluster",
+      "heading_hierarchy": [
+        "List all active production clusters with telemetry enabled",
+        "Step 8: Configure GitHub Integration (Optional)",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 16,
+      "total_chunks": 25,
+      "word_count": 110,
+      "last_updated": "2026-02-21T03:32:54.611229+00:00"
+    }
+  },
+  {
+    "id": "e01be378-2bc4-402e-a8f5-944c28fddd72",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0022",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Instance Configuration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 22,
+      "total_chunks": 30,
+      "word_count": 32,
+      "last_updated": "2026-02-21T03:32:54.611839+00:00"
+    }
+  },
+  {
+    "id": "e0d7de8e-923f-4e80-8bad-31fcde26fa11",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0006",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 4: Deploy Monitoring Agents",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide",
+        "Kubernetes Cluster Onboarding (EKS)",
+        "Step 3: Select Deployment Method"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 6,
+      "total_chunks": 25,
+      "word_count": 116,
+      "last_updated": "2026-02-21T03:32:51.968328+00:00"
+    }
+  },
+  {
+    "id": "e143d359-7b02-4a05-872f-bb36afc10974",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0008",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 4: Verify Cloud Account Connection",
+      "heading_hierarchy": [
+        "Check if verification was successful"
+      ],
+      "doc_type": "api",
+      "chunk_index": 8,
+      "total_chunks": 24,
+      "word_count": 118,
+      "last_updated": "2026-02-21T03:32:53.488374+00:00"
+    }
+  },
+  {
+    "id": "e144133b-d05b-4322-a718-b2fbb3924c74",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0005",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Data Flow",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Integration Architecture",
+        "Data Flow"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 5,
+      "total_chunks": 37,
+      "word_count": 119,
+      "last_updated": "2026-02-21T03:32:51.028180+00:00"
+    }
+  },
+  {
+    "id": "e2853c17-1fc0-4f6d-a41b-80eae4232e44",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0011",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "API Base URL",
+      "subsection": "Step 4: Create Tool Instance",
+      "heading_hierarchy": [
+        "Create Datadog tool instance"
+      ],
+      "doc_type": "api",
+      "chunk_index": 11,
+      "total_chunks": 30,
+      "word_count": 120,
+      "last_updated": "2026-02-21T03:32:54.611673+00:00"
+    }
+  },
+  {
+    "id": "e2db85e0-d19e-4a6a-a80a-e24f551fc54e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0002",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Overview",
+      "subsection": "Integration Capabilities",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Overview",
+        "Integration Capabilities"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 2,
+      "total_chunks": 37,
+      "word_count": 110,
+      "last_updated": "2026-02-21T03:32:51.028118+00:00"
+    }
+  },
+  {
+    "id": "e2ef45cb-5538-47c9-8158-852cf499fa15",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0002",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Overview",
+      "subsection": "Multi-Domain Analysis",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "How AI Investigation Works",
+        "Multi-Domain Analysis"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 2,
+      "total_chunks": 17,
+      "word_count": 159,
+      "last_updated": "2026-02-21T03:32:51.968684+00:00"
+    }
+  },
+  {
+    "id": "e3b18fb4-1c67-47cd-960f-c315f02ddfca",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0008",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Complete AWS Account Registration in Ciroos",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "AWS Account Onboarding Process",
+        "Step 5: Complete AWS Account Registration in Ciroos"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 8,
+      "total_chunks": 25,
+      "word_count": 167,
+      "last_updated": "2026-02-21T03:32:51.967878+00:00"
+    }
+  },
+  {
+    "id": "e48952f3-60cb-4a90-bfeb-6c7e2933e929",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0035",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Appendix D: Troubleshooting Checklist",
+      "heading_hierarchy": [
+        "Map Dynatrace to Kubernetes cluster",
+        "Appendix",
+        "Appendix D: Troubleshooting Checklist"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 35,
+      "total_chunks": 37,
+      "word_count": 112,
+      "last_updated": "2026-02-21T03:32:51.028738+00:00"
+    }
+  },
+  {
+    "id": "e899c53d-12a8-473b-8180-c615470219cd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0021",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": "Best Practices",
+      "heading_hierarchy": [
+        "=============================================================================",
+        "Error Handling and Best Practices",
+        "Common Error Codes"
+      ],
+      "doc_type": "api",
+      "chunk_index": 21,
+      "total_chunks": 25,
+      "word_count": 68,
+      "last_updated": "2026-02-21T03:32:54.611415+00:00"
+    }
+  },
+  {
+    "id": "e975c9cb-6b1e-474f-aacd-7f5a5694f29d",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0012",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "What Data is Accessed",
+      "subsection": "Configuration",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "What Data is Accessed"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 12,
+      "total_chunks": 17,
+      "word_count": 154,
+      "last_updated": "2026-02-21T03:32:53.488078+00:00"
+    }
+  },
+  {
+    "id": "ebe4f9ae-b1a5-43b0-81e4-695df12e3b81",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0002",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 3: Deploy CloudFormation Template",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Onboarding Guide",
+        "Cloud Account Onboarding (AWS)",
+        "Step 1: Initiate AWS Integration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 2,
+      "total_chunks": 25,
+      "word_count": 183,
+      "last_updated": "2026-02-21T03:32:51.968261+00:00"
+    }
+  },
+  {
+    "id": "ec0c54bd-76ec-43ad-83f3-5267acad267a",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4a7f6c2b_0001",
+      "source_file": "docs/ciroos-docs/docs/investigationsoverview.md",
+      "title": "Investigations Dashboard Overview",
+      "section": "Summary",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Investigations Dashboard Overview",
+        "Summary"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "word_count": 112,
+      "last_updated": "2026-02-21T03:32:55.884212+00:00"
+    }
+  },
+  {
+    "id": "ecbfcae0-dae8-4209-9f91-7eb378421766",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4d6c5613_0016",
+      "source_file": "docs/ciroos-docs/docs/CiroosOnboarding.md",
+      "title": "Ciroos AI Observability Platform - Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "Accessing Cluster Settings",
+      "heading_hierarchy": [
+        "Verify deployment",
+        "Cluster-Level Customizations",
+        "Available Customization Options",
+        "3. GitOps Configuration"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 16,
+      "total_chunks": 25,
+      "word_count": 146,
+      "last_updated": "2026-02-21T03:32:51.968509+00:00"
+    }
+  },
+  {
+    "id": "ecf5de69-8028-4a32-b242-3690780a12b6",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0004",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": null,
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "How Your Data is Protected",
+        "Multi-Layer Security Model"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 4,
+      "total_chunks": 17,
+      "word_count": 351,
+      "last_updated": "2026-02-21T03:32:51.968735+00:00"
+    }
+  },
+  {
+    "id": "ed08c2a8-daf5-4613-a86b-ff3f5acf29cd",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0004",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 1: Create Kubernetes Cluster Registration",
+      "heading_hierarchy": [
+        "Kubernetes Cluster Onboarding - API Automation Guide",
+        "Available Cluster Features",
+        "Step 1: Create Kubernetes Cluster Registration",
+        "Python Example"
+      ],
+      "doc_type": "api",
+      "chunk_index": 4,
+      "total_chunks": 25,
+      "word_count": 111,
+      "last_updated": "2026-02-21T03:32:53.488771+00:00"
+    }
+  },
+  {
+    "id": "ee5074cb-2b11-49f8-ab6c-98ce407b7cfe",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0033",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Appendix A: Required Dynatrace API Scopes",
+      "heading_hierarchy": [
+        "Map Dynatrace to Kubernetes cluster",
+        "Appendix",
+        "Appendix A: Required Dynatrace API Scopes",
+        "Environment-Level Scopes",
+        "User Experience & Sessions"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 33,
+      "total_chunks": 37,
+      "word_count": 171,
+      "last_updated": "2026-02-21T03:32:51.028704+00:00"
+    }
+  },
+  {
+    "id": "ef35c915-ce0b-40af-aa4a-24e3694a3e6c",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0006",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Data Classification and Protection",
+      "subsection": "Data Categories",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Data Classification and Protection"
+      ],
+      "doc_type": "api",
+      "chunk_index": 6,
+      "total_chunks": 10,
+      "word_count": 28,
+      "last_updated": "2026-02-21T03:32:55.883612+00:00"
+    }
+  },
+  {
+    "id": "ef65c746-a277-4709-9571-61aa8eaa1672",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e31b3a46_0000",
+      "source_file": "docs/ciroos-docs/docs/webhook.md",
+      "title": "Webhook",
+      "section": "Webhook Integration",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Webhook Integration"
+      ],
+      "doc_type": "api",
+      "chunk_index": 0,
+      "total_chunks": 2,
+      "word_count": 114,
+      "last_updated": "2026-02-21T03:32:56.574015+00:00"
+    }
+  },
+  {
+    "id": "f014bb00-e7f1-4e1d-a70f-c7467a1a7cf8",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0015",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 5: Configure Connection Parameters",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Ciroos Platform Configuration",
+        "Step 6: Complete Authentication",
+        "6.1 Select Authentication Type"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 15,
+      "total_chunks": 37,
+      "word_count": 71,
+      "last_updated": "2026-02-21T03:32:51.028354+00:00"
+    }
+  },
+  {
+    "id": "f1abb3e9-e3e9-48f9-95eb-3edce2bddace",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "c1c0b413_0003",
+      "source_file": "docs/ciroos-docs/docs/feature/auditlogs.md",
+      "title": "Audit Logs",
+      "section": "Integrations View",
+      "subsection": "A. Summary Visualizations (Top Pane)",
+      "heading_hierarchy": [
+        "Audit Logs",
+        "Integrations View"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 3,
+      "total_chunks": 7,
+      "word_count": 24,
+      "last_updated": "2026-02-21T03:32:55.883975+00:00"
+    }
+  },
+  {
+    "id": "f292827a-fc34-4a1f-b67b-2b7b98573767",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a80c766_0003",
+      "source_file": "docs/ciroos-docs/README-TESTING.md",
+      "title": "Testing Ciroos Documentation",
+      "section": "Testing Checklist",
+      "subsection": "Circular Symbolic Links",
+      "heading_hierarchy": [
+        "or using Homebrew on macOS",
+        "Testing Checklist"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 3,
+      "total_chunks": 6,
+      "word_count": 101,
+      "last_updated": "2026-02-21T03:32:51.028013+00:00"
+    }
+  },
+  {
+    "id": "f31dd09f-d887-49fa-ad78-291b95a54413",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0010",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Prerequisites",
+      "subsection": "IAM Permissions Granted",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "CloudFormation Template Details",
+        "IAM Permissions Granted"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 10,
+      "total_chunks": 25,
+      "word_count": 108,
+      "last_updated": "2026-02-21T03:32:51.967917+00:00"
+    }
+  },
+  {
+    "id": "f323ea3e-df65-49ca-95c3-f11e0d2adb17",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "dcb66f8f_0019",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-cloud-onboarding.md",
+      "title": "Cloud Account Onboarding - API Automation Guide",
+      "section": "Complete End-to-End Python Script",
+      "subsection": null,
+      "heading_hierarchy": [
+        "============================================================================="
+      ],
+      "doc_type": "api",
+      "chunk_index": 19,
+      "total_chunks": 24,
+      "word_count": 582,
+      "last_updated": "2026-02-21T03:32:53.488622+00:00"
+    }
+  },
+  {
+    "id": "f4169baf-d735-4903-941d-99cae89e700f",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0007",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Step 2: Configure OAuth Client Permissions",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+        "Dynatrace Configuration",
+        "Step 2: Configure OAuth Client Permissions",
+        "2.2 Required Permissions"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 7,
+      "total_chunks": 37,
+      "word_count": 133,
+      "last_updated": "2026-02-21T03:32:51.028216+00:00"
+    }
+  },
+  {
+    "id": "f445a2b0-c523-4807-aaf0-db34e8bd9f25",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0000",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Security Commitments",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Overview"
+      ],
+      "doc_type": "api",
+      "chunk_index": 0,
+      "total_chunks": 10,
+      "word_count": 117,
+      "last_updated": "2026-02-21T03:32:54.612062+00:00"
+    }
+  },
+  {
+    "id": "f4ee4eb2-0c33-4fa7-9111-5a62deba105b",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "c1c0b413_0004",
+      "source_file": "docs/ciroos-docs/docs/feature/auditlogs.md",
+      "title": "Audit Logs",
+      "section": "Integrations View",
+      "subsection": "A. Summary Visualizations (Top Pane)",
+      "heading_hierarchy": [
+        "Audit Logs",
+        "Integrations View",
+        "A. Summary Visualizations (Top Pane)"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "word_count": 116,
+      "last_updated": "2026-02-21T03:32:55.883989+00:00"
+    }
+  },
+  {
+    "id": "f51f0ac5-77c7-4bdc-a3d2-00d5e1997d72",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "4a7f6c2b_0000",
+      "source_file": "docs/ciroos-docs/docs/investigationsoverview.md",
+      "title": "Investigations Dashboard Overview",
+      "section": "Investigations Dashboard Overview",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Investigations Dashboard Overview"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 0,
+      "total_chunks": 5,
+      "word_count": 232,
+      "last_updated": "2026-02-21T03:32:55.884198+00:00"
+    }
+  },
+  {
+    "id": "f5754335-93c8-49f4-9455-c7cef6f3cde7",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "1a022d5b_0001",
+      "source_file": "docs/ciroos-docs/docs/CiroosCloudOnboarding-AWS.md",
+      "title": "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+      "section": "Overview",
+      "subsection": "Integration Architecture",
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - AWS Cloud Onboarding Guide",
+        "Overview",
+        "What Gets Onboarded?"
+      ],
+      "doc_type": "onboarding",
+      "chunk_index": 1,
+      "total_chunks": 25,
+      "word_count": 128,
+      "last_updated": "2026-02-21T03:32:51.028790+00:00"
+    }
+  },
+  {
+    "id": "f60af279-13af-4e2d-9083-3bca02426d7e",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e809dcc3_0005",
+      "source_file": "docs/ciroos-docs/docs/ciroos_ai_rca_presentation.md",
+      "title": "Ciroos AI RCA Engine - Architecture & Security Overview",
+      "section": "Security Architecture Solution",
+      "subsection": "**4-Layer Defense Strategy**",
+      "heading_hierarchy": [
+        "Ciroos AI RCA Engine - Architecture & Security Overview",
+        "Multi-Layer API Access Control",
+        "**4-Layer Defense Strategy**"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "word_count": 125,
+      "last_updated": "2026-02-21T03:32:55.883796+00:00"
+    }
+  },
+  {
+    "id": "f627bc99-cbb3-4b41-9023-bbfc61ae25f8",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0001",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Kubernetes Cluster Onboarding - API Automation Guide",
+        "API Base URL"
+      ],
+      "doc_type": "api",
+      "chunk_index": 1,
+      "total_chunks": 25,
+      "word_count": 127,
+      "last_updated": "2026-02-21T03:32:53.488734+00:00"
+    }
+  },
+  {
+    "id": "f8325a13-ec8d-4bab-8aef-b38074b320d1",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0029",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Support and Additional Resources",
+      "subsection": null,
+      "heading_hierarchy": [
+        "For EU site",
+        "Troubleshooting",
+        "Metadata Fetching Issues"
+      ],
+      "doc_type": "api",
+      "chunk_index": 29,
+      "total_chunks": 30,
+      "word_count": 95,
+      "last_updated": "2026-02-21T03:32:54.612047+00:00"
+    }
+  },
+  {
+    "id": "f9b47882-b4de-4056-9d39-07897402fea6",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0030",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Prerequisites",
+      "subsection": "Operational Best Practices",
+      "heading_hierarchy": [
+        "Map Dynatrace to Kubernetes cluster",
+        "Best Practices",
+        "Performance Best Practices"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 30,
+      "total_chunks": 37,
+      "word_count": 137,
+      "last_updated": "2026-02-21T03:32:51.028661+00:00"
+    }
+  },
+  {
+    "id": "fa9f45f7-f312-45ef-98db-56f1ac2d43d6",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "0c9ea968_0000",
+      "source_file": "docs/ciroos-docs/docs/Ciroos Dynatrace Integration Guide.md",
+      "title": "Ciroos AI Observability Platform - Dynatrace Integration Guide",
+      "section": "Table of Contents",
+      "subsection": null,
+      "heading_hierarchy": [
+        "Ciroos AI Observability Platform - Dynatrace Integration Guide"
+      ],
+      "doc_type": "integration",
+      "chunk_index": 0,
+      "total_chunks": 37,
+      "word_count": 102,
+      "last_updated": "2026-02-21T03:32:51.028074+00:00"
+    }
+  },
+  {
+    "id": "fb1573f5-6e96-43e7-b5d8-d741f0a3b082",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "3ff0ad6f_0001",
+      "source_file": "docs/ciroos-docs/docs/architecture.md",
+      "title": "Product and Security Architecture",
+      "section": "Security Commitments",
+      "subsection": "Core Security Principles",
+      "heading_hierarchy": [
+        "Product and Security Architecture",
+        "Security Commitments",
+        "Core Security Principles"
+      ],
+      "doc_type": "api",
+      "chunk_index": 1,
+      "total_chunks": 10,
+      "word_count": 126,
+      "last_updated": "2026-02-21T03:32:54.612077+00:00"
+    }
+  },
+  {
+    "id": "fc243ae6-35ff-49d3-b61b-05cc5be3f545",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "ca41ec59_0003",
+      "source_file": "docs/ciroos-docs/docs/usermgmt.md",
+      "title": "Usermgmt",
+      "section": "Users and Resource Management",
+      "subsection": "User and Project Onboarding workflow",
+      "heading_hierarchy": [
+        "Users and Resource Management",
+        "User and Project Onboarding workflow"
+      ],
+      "doc_type": "general",
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "word_count": 137,
+      "last_updated": "2026-02-21T03:32:56.573991+00:00"
+    }
+  },
+  {
+    "id": "fca925d8-904d-4a1f-bda4-aa1bef4135ef",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "ca41ec59_0000",
+      "source_file": "docs/ciroos-docs/docs/usermgmt.md",
+      "title": "Usermgmt",
+      "section": "Users and Resource Management",
+      "subsection": "Roles",
+      "heading_hierarchy": [
+        "Users and Resource Management"
+      ],
+      "doc_type": "general",
+      "chunk_index": 0,
+      "total_chunks": 5,
+      "word_count": 17,
+      "last_updated": "2026-02-21T03:32:55.884403+00:00"
+    }
+  },
+  {
+    "id": "fdd60404-6fff-436c-b275-bdf4d7fad208",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "e31b3a46_0001",
+      "source_file": "docs/ciroos-docs/docs/webhook.md",
+      "title": "Webhook",
+      "section": "Webhook Integration",
+      "subsection": "Integration Flow and Process",
+      "heading_hierarchy": [
+        "Webhook Integration",
+        "Integration Flow and Process"
+      ],
+      "doc_type": "api",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "word_count": 154,
+      "last_updated": "2026-02-21T03:32:56.574031+00:00"
+    }
+  },
+  {
+    "id": "fefa23d2-bbb5-481f-9c1d-7f1b959df203",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "24e087e8_0010",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-kubernetes-cluster-onboarding.md",
+      "title": "Kubernetes Cluster Onboarding - API Automation Guide",
+      "section": "Available Cluster Features",
+      "subsection": "Step 4: Verify Cluster Status",
+      "heading_hierarchy": [
+        "Verify configmaps and secrets",
+        "Step 4: Verify Cluster Status",
+        "API Endpoint"
+      ],
+      "doc_type": "api",
+      "chunk_index": 10,
+      "total_chunks": 25,
+      "word_count": 105,
+      "last_updated": "2026-02-21T03:32:54.611099+00:00"
+    }
+  },
+  {
+    "id": "ff2f0e65-da21-42ef-8540-ea68a5936279",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "140c1ec6_0010",
+      "source_file": "docs/ciroos-docs/docs/ai-automated-incident-analysis.md",
+      "title": "AI-Powered Automated Incident Analysis",
+      "section": "Security and Data Access",
+      "subsection": "Data Privacy and Third-Party AI Provider Controls",
+      "heading_hierarchy": [
+        "AI-Powered Automated Incident Analysis",
+        "Security and Data Access",
+        "Data Privacy and Third-Party AI Provider Controls",
+        "Best Practices for Data Privacy"
+      ],
+      "doc_type": "feature",
+      "chunk_index": 10,
+      "total_chunks": 17,
+      "word_count": 157,
+      "last_updated": "2026-02-21T03:32:53.488046+00:00"
+    }
+  },
+  {
+    "id": "ff7b534a-973b-430b-9dee-642a258037fe",
+    "payload": {
+      "org_id": "system",
+      "_external_id": "df532dd5_0028",
+      "source_file": "docs/ciroos-docs/docs/api/api-automation-observability-tools-onboarding.md",
+      "title": "Observability Tools Onboarding - API Automation Guide",
+      "section": "Jenkins Complete Pipeline",
+      "subsection": "Connection Test Failures",
+      "heading_hierarchy": [
+        "For EU site",
+        "Troubleshooting",
+        "Connection Test Failures"
+      ],
+      "doc_type": "api",
+      "chunk_index": 28,
+      "total_chunks": 30,
+      "word_count": 108,
+      "last_updated": "2026-02-21T03:32:54.612034+00:00"
+    }
+  }
+]

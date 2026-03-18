@@ -1,0 +1,91 @@
+[
+  {
+    "id": "10b42886-2981-495d-8a6f-d68d93c27139",
+    "payload": {
+      "create_timestamp": "2026-02-19T15:37:53.512694+00:00",
+      "description": "This is a simulated issue for RCA testing. Pod status: Pending. Issue type: image-not-found. Message: containers with unready status: [app]",
+      "organization_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "report_type": "rca",
+      "severity": "HIGH",
+      "status": "ERRORED",
+      "summary": "Investigation aborted: No agents available for investigation",
+      "update_timestamp": "2026-02-19T15:38:03.579798826+00:00",
+      "org_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "_external_id": "INV-0000000004"
+    }
+  },
+  {
+    "id": "1f604ef5-2579-4776-99ee-52d756977245",
+    "payload": {
+      "create_timestamp": "2026-02-19T16:28:22.709680+00:00",
+      "description": "This is a simulated issue for RCA testing. Pod status: Pending. Issue type: image-not-found. Message: containers with unready status: [app]",
+      "organization_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "report_type": "rca",
+      "severity": "HIGH",
+      "status": "COMPLETED",
+      "summary": "{\"issue\":\"New pod stuck in Pending; unable to pull container image.\",\"summary\":\"The sim-test-image-not-found pod in namespace ciroos was reported with image-not-found errors, specifically ErrImagePull and ImagePullBackOff for the app container. Cluster and pod event logs show attempts to pull an image that appears to be invalid or inaccessible; the repository path used and the absence of recent successful pulls support this. While all evidence points toward an image reference or repository access problem, exact underlying causes (e.g., typo, image deletion, authorization issue) are unconfirmed. Root cause is unclear based on currently available evidence.\",\"details\":[\"Only one pod/service (sim-test-image-not-found) is impacted in ciroos; no broader impact seen\",\"Confidence in symptom (unable to pull image): high; confidence in specific cause: low\",\"No detection of recent config changes, registry outages, or deployment mishaps\",\"Recommendation: further review required on image existence and credentials\"]}",
+      "update_timestamp": "2026-02-19T16:30:33.919787555+00:00",
+      "org_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "_external_id": "INV-0000000006"
+    }
+  },
+  {
+    "id": "4f07269d-71a7-4c38-8e9c-c5305572d6c1",
+    "payload": {
+      "create_timestamp": "2026-02-21T01:40:08.742248040+00:00",
+      "description": "",
+      "organization_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "report_type": "rca",
+      "status": "ERRORED",
+      "summary": "Investigation errored",
+      "update_timestamp": "2026-02-21T01:40:08.742245+00:00",
+      "org_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "_external_id": "INV-0000000008"
+    }
+  },
+  {
+    "id": "57be94d7-152a-4d1a-949d-72a3d1723227",
+    "payload": {
+      "create_timestamp": "2026-02-19T16:13:43.433977+00:00",
+      "description": "This is a simulated issue for RCA testing. Pod status: Pending. Issue type: image-not-found. Message: containers with unready status: [app]",
+      "organization_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "report_type": "rca",
+      "severity": "HIGH",
+      "status": "ERRORED",
+      "summary": "Investigation aborted: No agents available for investigation",
+      "update_timestamp": "2026-02-19T16:13:52.957083220+00:00",
+      "org_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "_external_id": "INV-0000000005"
+    }
+  },
+  {
+    "id": "7a66705e-c1a8-4c4a-8a9a-cead30a6ffd1",
+    "payload": {
+      "create_timestamp": "2026-02-19T16:42:53.576107+00:00",
+      "description": "This is a simulated issue for RCA testing. Pod status: Pending. Issue type: config-missing. Message: containers with unready status: [app]",
+      "organization_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "report_type": "rca",
+      "severity": "HIGH",
+      "status": "COMPLETED",
+      "summary": "{\"issue\":\"Pod sim-test-config-missing is stuck in Pending status due to a configuration issue.\",\"summary\":\"The pod sim-test-config-missing in the ciroos namespace failed to start because it references a ConfigMap (sim-test-nonexistent-configmap) that does not exist in the namespace. This absence prevents the pod\u2019s container from becoming ready. This finding is explicitly supported by pod spec inspection and Kubernetes error messages indicating the missing ConfigMap as the blocking factor for pod startup.\",\"details\":[\"Impacted Pod: sim-test-config-missing\",\"Impacted Namespace: ciroos\",\"Kubernetes event logs confirm a failure to find the required ConfigMap.\",\"Other config/secret/volume resources referenced by the pod are present.\",\"No evidence of related or broader issues affecting other services or namespaces.\",\"Confidence level: High\u2014direct evidence confirms the root cause.\"]}",
+      "update_timestamp": "2026-02-19T16:45:00.932991151+00:00",
+      "org_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "_external_id": "INV-0000000007"
+    }
+  },
+  {
+    "id": "99aa7c9e-8003-4606-bdfe-2cd9c5e35416",
+    "payload": {
+      "create_timestamp": "2026-03-05T15:34:13.045704+00:00",
+      "description": "overall health",
+      "organization_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "report_type": "rca",
+      "severity": "CRITICAL",
+      "status": "ERRORED",
+      "summary": "Investigation errored",
+      "update_timestamp": "2026-03-05T15:34:16.815538761+00:00",
+      "org_id": "5b9731c6-7d7f-4460-838d-df03c0281ba0",
+      "_external_id": "INV-0000000009"
+    }
+  }
+]
