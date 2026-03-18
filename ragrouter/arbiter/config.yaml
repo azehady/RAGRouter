@@ -51,8 +51,8 @@ engines:
   graph:
     name: "Graph/LightRAG Engine"
     type: graph
-    url: "http://graph-engine.ragrouter.svc.cluster.local:8004"
-    enabled: false
+    url: "http://graph-engine.ciroos-rag.svc.cluster.local:8004"
+    enabled: true
     strengths:
       - "relationship_queries"
       - "multi_hop"
