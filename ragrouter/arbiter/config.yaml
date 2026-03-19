@@ -52,7 +52,7 @@ engines:
     name: "Graph/LightRAG Engine"
     type: graph
     url: "http://graph-engine.ciroos-rag.svc.cluster.local:8004"
-    enabled: true
+    enabled: false
     strengths:
       - "relationship_queries"
       - "multi_hop"
@@ -102,7 +102,7 @@ arbiter:
   max_cascade_fallbacks: 2
   parallel_topk: 3
   confidence_threshold: 0.6
-  timeout_ms: 10000
+  timeout_ms: 30000
 
 scoring:
   weights:

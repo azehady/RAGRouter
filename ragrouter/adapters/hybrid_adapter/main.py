@@ -65,8 +65,8 @@ class HybridEngineSettings(BaseSettings):
     rerank_top_k: int = 5
 
     # Retrieval
-    dense_top_k: int = 20
-    sparse_top_k: int = 20
+    dense_top_k: int = 10
+    sparse_top_k: int = 10
 
     # LLM for answer generation
     litellm_api_base: str = "http://localhost:4000"
@@ -83,6 +83,19 @@ settings = HybridEngineSettings()
 # ---------------------------------------------------------------------------
 
 _pipeline = None
+_flashrank_ranker = None
+
+
+def _init_flashrank():
+    """Pre-download and cache the FlashRank model so it's ready for queries."""
+    global _flashrank_ranker
+    try:
+        from flashrank import Ranker
+
+        _flashrank_ranker = Ranker(model_name=settings.rerank_model)
+        logger.info("flashrank.ready", model=settings.rerank_model)
+    except ImportError:
+        logger.info("flashrank.not_available")
 
 
 def _build_pipeline():
@@ -244,26 +257,27 @@ async def _standalone_hybrid_search(request: EngineRequest) -> EngineResponse:
             "title": pt.payload.get("title", ""),
         })
 
-    # FlashRank reranking
+    # FlashRank reranking (uses pre-cached ranker)
     reranking_applied = False
-    try:
-        from flashrank import Ranker, RerankRequest
+    if _flashrank_ranker is not None:
+        try:
+            from flashrank import RerankRequest
 
-        ranker = Ranker(model_name=settings.rerank_model)
-        passages = [{"id": c["id"], "text": c["text"]} for c in candidates]
-        rerank_req = RerankRequest(query=request.query, passages=passages)
-        reranked = ranker.rerank(rerank_req)
-        reranking_applied = True
+            passages = [{"id": c["id"], "text": c["text"]} for c in candidates]
+            rerank_req = RerankRequest(query=request.query, passages=passages)
+            reranked = _flashrank_ranker.rerank(rerank_req)
+            reranking_applied = True
 
-        # Rebuild candidates with reranked order
-        id_to_candidate = {c["id"]: c for c in candidates}
-        candidates = []
-        for item in reranked[: settings.rerank_top_k]:
-            cand = id_to_candidate.get(item["id"], {})
-            cand["score"] = item["score"]
-            candidates.append(cand)
-    except ImportError:
-        logger.info("FlashRank not available, using raw search scores")
+            id_to_candidate = {c["id"]: c for c in candidates}
+            candidates = []
+            for item in reranked[: settings.rerank_top_k]:
+                cand = id_to_candidate.get(item["id"], {})
+                cand["score"] = item["score"]
+                candidates.append(cand)
+        except Exception as e:
+            logger.warning("flashrank.rerank_failed", error=str(e))
+            candidates = candidates[: settings.rerank_top_k]
+    else:
         candidates = candidates[: settings.rerank_top_k]
 
     rerank_ms = (time.monotonic() - start) * 1000 - retrieval_ms
@@ -419,33 +433,9 @@ async def _enhanced_hybrid_search(request: EngineRequest) -> EngineResponse:
             f"multi_retrieval ({retrieval_ms:.0f}ms, {len(all_results)} queries, {total_docs} docs)"
         )
 
-        # Step 4: FlashRank reranking per result list (if available)
+        # Step 4: Skip FlashRank in enhanced pipeline — RRF fusion + LLM reranking
+        # is sufficient and FlashRank is too slow on CPU with many docs.
         flashrank_applied = False
-        try:
-            from flashrank import Ranker, RerankRequest
-
-            ranker = Ranker(model_name=settings.rerank_model)
-            reranked_lists = []
-            for variant_idx, (variant_query, result_list) in enumerate(
-                zip(query_variants, all_results)
-            ):
-                if not result_list:
-                    reranked_lists.append([])
-                    continue
-                passages = [{"id": c["id"], "text": c["text"]} for c in result_list]
-                rerank_req = RerankRequest(query=variant_query, passages=passages)
-                reranked = ranker.rerank(rerank_req)
-                id_to_cand = {c["id"]: c for c in result_list}
-                reranked_list = []
-                for item in reranked:
-                    cand = id_to_cand.get(item["id"], {})
-                    cand["score"] = item["score"]
-                    reranked_list.append(cand)
-                reranked_lists.append(reranked_list)
-            all_results = reranked_lists
-            flashrank_applied = True
-        except ImportError:
-            logger.info("FlashRank not available, skipping per-list reranking")
 
         flashrank_ms = (time.monotonic() - start) * 1000 - expansion_ms - embed_ms - retrieval_ms
         if flashrank_applied:
@@ -664,12 +654,13 @@ async def _search_qdrant(
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global _pipeline
-    try:
-        _pipeline, _ = _build_pipeline()
-        logger.info("hybrid_engine.haystack_pipeline_ready")
-    except Exception as e:
-        logger.warning("hybrid_engine.haystack_unavailable, using standalone", error=str(e))
-        _pipeline = None
+    # Skip heavy Haystack pipeline init — we use the standalone/enhanced path
+    # with OpenAI embeddings via API, not local sentence-transformers models.
+    # This avoids loading ~500MB of model weights at startup.
+    _pipeline = None
+    # Pre-download FlashRank reranker model so it's cached for queries
+    _init_flashrank()
+    logger.info("hybrid_engine.started", pipeline="standalone")
     yield
     logger.info("hybrid_engine.stopped")
 
@@ -773,23 +764,25 @@ async def search(request: SearchRequest) -> SearchResponse:
                 "doc_type": pt.payload.get("doc_type", ""),
             })
 
-        # FlashRank reranking
-        try:
-            from flashrank import Ranker, RerankRequest
+        # FlashRank reranking (uses pre-cached ranker)
+        if _flashrank_ranker is not None:
+            try:
+                from flashrank import RerankRequest
 
-            ranker = Ranker(model_name=settings.rerank_model)
-            passages = [{"id": c["id"], "text": c["text"]} for c in candidates]
-            rerank_req = RerankRequest(query=request.query, passages=passages)
-            reranked = ranker.rerank(rerank_req)
+                passages = [{"id": c["id"], "text": c["text"]} for c in candidates]
+                rerank_req = RerankRequest(query=request.query, passages=passages)
+                reranked = _flashrank_ranker.rerank(rerank_req)
 
-            id_to_candidate = {c["id"]: c for c in candidates}
-            candidates = []
-            for item in reranked[: request.limit]:
-                cand = id_to_candidate.get(item["id"], {})
-                cand["score"] = item["score"]
-                candidates.append(cand)
-        except ImportError:
-            logger.info("FlashRank not available, using raw search scores")
+                id_to_candidate = {c["id"]: c for c in candidates}
+                candidates = []
+                for item in reranked[: request.limit]:
+                    cand = id_to_candidate.get(item["id"], {})
+                    cand["score"] = item["score"]
+                    candidates.append(cand)
+            except Exception as e:
+                logger.warning("flashrank.search_rerank_failed", error=str(e))
+                candidates = candidates[: request.limit]
+        else:
             candidates = candidates[: request.limit]
 
         # Apply doc_type filter if provided

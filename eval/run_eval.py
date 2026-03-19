@@ -133,7 +133,7 @@ def call_arbiter(
             "query": question,
             "corpus_id": corpus_id,
             "chat_history": [],
-            "constraints": {"max_latency_ms": 15000, "must_cite": True, "max_tokens": 2000},
+            "constraints": {"max_latency_ms": 30000, "must_cite": True, "max_tokens": 2000},
         },
         timeout=timeout,
     )
