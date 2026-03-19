@@ -199,6 +199,42 @@ test-cov:
     uv run pytest tests/ -v --cov=ragrouter --cov-report=term-missing
 
 # ---------------------------------------------------------------------------
+# Eval
+# ---------------------------------------------------------------------------
+
+# Launch the Streamlit eval dashboard
+dashboard:
+    uv run streamlit run eval/dashboard.py
+
+# Run eval against the arbiter (all 123 questions)
+eval:
+    uv run python eval/run_eval.py --arbiter-url http://localhost:8000
+
+# Run eval with hybrid comparison
+eval-compare:
+    uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --hybrid-url http://localhost:8001
+
+# Run eval with LLM judge for answer quality scoring
+eval-judge judge_url="http://localhost:4000":
+    uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --judge-url {{judge_url}}
+
+# Quick eval (first 10 questions only)
+eval-quick:
+    uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --limit 10
+
+# Generate/regenerate eval dataset chunks from source docs
+eval-chunks:
+    uv run python eval/build_dataset.py chunks
+
+# Generate eval dataset with LLM Q&A pairs
+eval-generate litellm_url="http://localhost:4000":
+    uv run python eval/build_dataset.py generate --litellm-url {{litellm_url}}
+
+# Show eval dataset stats
+eval-stats:
+    uv run python eval/build_dataset.py stats
+
+# ---------------------------------------------------------------------------
 # Teardown
 # ---------------------------------------------------------------------------
 
