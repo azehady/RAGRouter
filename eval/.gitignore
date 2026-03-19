@@ -4,3 +4,6 @@ data/source_docs/
 # Generated intermediates
 data/chunks_compact.json
 data/generated_qa.json
+
+# Eval run results (generated, can be large)
+results/

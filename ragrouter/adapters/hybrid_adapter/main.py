@@ -206,14 +206,15 @@ async def _standalone_hybrid_search(request: EngineRequest) -> EngineResponse:
         embedder = TextEmbedding(settings.embedding_model)
         query_vectors = list(embedder.embed([request.query]))
         query_vector = query_vectors[0].tolist()
-    except ImportError:
-        # Fallback: use OpenAI embeddings via the existing vectorstore
+    except (ImportError, ValueError):
+        # Fallback: use OpenAI-compatible embeddings via API
         import httpx
 
-        async with httpx.AsyncClient() as http:
+        embedding_api_base = os.getenv("HYBRID_EMBEDDING_API_BASE", settings.litellm_api_base)
+        async with httpx.AsyncClient(timeout=15.0) as http:
             resp = await http.post(
-                f"{settings.litellm_api_base}/embeddings",
-                json={"model": "text-embedding-3-small", "input": request.query},
+                f"{embedding_api_base}/embeddings",
+                json={"model": settings.embedding_model, "input": request.query},
                 headers={"Authorization": f"Bearer {os.getenv('OPENAI_API_KEY', 'dummy')}"},
             )
             data = resp.json()
@@ -610,15 +611,16 @@ async def _embed_queries(queries: list[str]) -> list[list[float]]:
 
         embedder = TextEmbedding(settings.embedding_model)
         return [v.tolist() for v in embedder.embed(queries)]
-    except ImportError:
+    except (ImportError, ValueError):
         import httpx
 
+        embedding_api_base = os.getenv("HYBRID_EMBEDDING_API_BASE", settings.litellm_api_base)
         embeddings = []
         async with httpx.AsyncClient(timeout=15.0) as http:
             for q in queries:
                 resp = await http.post(
-                    f"{settings.litellm_api_base}/embeddings",
-                    json={"model": "text-embedding-3-small", "input": q},
+                    f"{embedding_api_base}/embeddings",
+                    json={"model": settings.embedding_model, "input": q},
                     headers={
                         "Authorization": f"Bearer {os.getenv('OPENAI_API_KEY', 'dummy')}"
                     },
