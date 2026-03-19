@@ -202,24 +202,43 @@ test-cov:
 # Eval
 # ---------------------------------------------------------------------------
 
+# Start port-forwards in the background if not already running
+[private]
+ensure-port-forward:
+    #!/usr/bin/env bash
+    if curl -sf http://localhost:8000/health >/dev/null 2>&1; then
+      echo "Port-forwards already active"
+    else
+      echo "Starting port-forwards..."
+      kubectl port-forward -n {{namespace}} svc/arbiter 8000:8000 &
+      kubectl port-forward -n {{namespace}} svc/hybrid-engine 8001:8001 &
+      kubectl port-forward -n {{namespace}} svc/graph-engine 8004:8004 &
+      # Wait for ports to be ready
+      for i in $(seq 1 10); do
+        curl -sf http://localhost:8000/health >/dev/null 2>&1 && break
+        sleep 1
+      done
+      echo "Port-forwards ready (arbiter:8000, hybrid:8001, graph:8004)"
+    fi
+
 # Launch the Streamlit eval dashboard
-dashboard:
+dashboard: ensure-port-forward
     uv run streamlit run eval/dashboard.py
 
 # Run eval against the arbiter (all 123 questions)
-eval:
+eval: ensure-port-forward
     uv run python eval/run_eval.py --arbiter-url http://localhost:8000
 
 # Run eval with hybrid comparison
-eval-compare:
+eval-compare: ensure-port-forward
     uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --hybrid-url http://localhost:8001
 
 # Run eval with LLM judge for answer quality scoring
-eval-judge judge_url="http://localhost:4000":
+eval-judge judge_url="http://localhost:4000": ensure-port-forward
     uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --judge-url {{judge_url}}
 
 # Quick eval (first 10 questions only)
-eval-quick:
+eval-quick: ensure-port-forward
     uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --limit 10
 
 # Generate/regenerate eval dataset chunks from source docs
