@@ -229,6 +229,10 @@ dashboard: ensure-port-forward
 eval: ensure-port-forward
     uv run python eval/run_eval.py --arbiter-url http://localhost:8000
 
+# Run eval with answers and correctness reasoning shown
+eval-verbose: ensure-port-forward
+    uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --verbose
+
 # Run eval with hybrid comparison
 eval-compare: ensure-port-forward
     uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --hybrid-url http://localhost:8001
@@ -240,6 +244,10 @@ eval-judge judge_url="http://localhost:4000": ensure-port-forward
 # Quick eval (first 10 questions only)
 eval-quick: ensure-port-forward
     uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --limit 10
+
+# Quick eval with verbose output
+eval-quick-verbose: ensure-port-forward
+    uv run python eval/run_eval.py --arbiter-url http://localhost:8000 --limit 10 --verbose
 
 # Generate/regenerate eval dataset chunks from source docs
 eval-chunks:

@@ -349,6 +349,34 @@ def score_answer_overlap(ground_truth: str, answer: str) -> AnswerMetrics:
 # ---------------------------------------------------------------------------
 
 
+def _correctness_reason(gt: str, answer: str, score: float) -> str:
+    """Explain why the correctness score is what it is."""
+    if not answer or not gt:
+        return "empty answer or ground truth"
+
+    gt_words = set(re.findall(r"\w+", gt.lower()))
+    ans_words = set(re.findall(r"\w+", answer.lower()))
+    stopwords = {
+        "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
+        "have", "has", "had", "do", "does", "did", "will", "would", "could",
+        "should", "may", "might", "shall", "can", "to", "of", "in", "for",
+        "on", "with", "at", "by", "from", "as", "into", "through", "during",
+        "before", "after", "above", "below", "between", "and", "but", "or",
+        "not", "no", "so", "if", "then", "than", "that", "this", "it", "its",
+    }
+    gt_words -= stopwords
+    ans_words -= stopwords
+    overlap = gt_words & ans_words
+    missing = gt_words - ans_words
+
+    parts = [f"F1={score:.2f}"]
+    parts.append(f"overlap={len(overlap)}/{len(gt_words)} key terms")
+    if missing:
+        sample = sorted(missing)[:8]
+        parts.append(f"missing: {', '.join(sample)}")
+    return "; ".join(parts)
+
+
 def run_eval(
     arbiter_url: str,
     hybrid_url: str | None = None,
@@ -356,6 +384,7 @@ def run_eval(
     judge_model: str = "gpt-4o-mini",
     limit: int | None = None,
     corpus_id: str = "ciroos-docs",
+    verbose: bool = False,
 ) -> list[EvalResult]:
     """Run evaluation on the full dataset."""
     # Load dataset
@@ -449,6 +478,20 @@ def run_eval(
                   f"latency={result.arbiter_latency_ms:.0f}ms "
                   f"correctness={result.arbiter_answer_metrics.correctness:.2f}")
 
+            if verbose:
+                # Show answer (truncated)
+                ans_preview = result.arbiter_answer.replace("\n", " ")[:300]
+                print(f"    answer: {ans_preview}")
+                # Show correctness reasoning
+                reason = _correctness_reason(
+                    gt, result.arbiter_answer,
+                    result.arbiter_answer_metrics.correctness,
+                )
+                print(f"    reason: {reason}")
+                # Show ground truth (truncated)
+                gt_preview = gt.replace("\n", " ")[:200]
+                print(f"    expected: {gt_preview}")
+
         except Exception as e:
             result.arbiter_error = str(e)
             print(f"  arbiter: ERROR {e}")
@@ -480,6 +523,15 @@ def run_eval(
 
                 print(f"  hybrid:  latency={result.hybrid_latency_ms:.0f}ms "
                       f"correctness={result.hybrid_answer_metrics.correctness:.2f}")
+
+                if verbose:
+                    ans_preview = result.hybrid_answer.replace("\n", " ")[:300]
+                    print(f"    answer: {ans_preview}")
+                    reason = _correctness_reason(
+                        gt, result.hybrid_answer,
+                        result.hybrid_answer_metrics.correctness,
+                    )
+                    print(f"    reason: {reason}")
 
             except Exception as e:
                 result.hybrid_error = str(e)
@@ -658,6 +710,7 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=None, help="Limit to N questions")
     parser.add_argument("--run-name", default="eval", help="Name for this eval run")
     parser.add_argument("--dataset", default=None, help="Path to eval dataset JSONL")
+    parser.add_argument("--verbose", action="store_true", help="Show answers and correctness reasoning")
 
     args = parser.parse_args()
 
@@ -672,6 +725,7 @@ def main() -> None:
         judge_model=args.judge_model,
         limit=args.limit,
         corpus_id=args.corpus_id,
+        verbose=args.verbose,
     )
 
     aggregates = compute_aggregates(results)
