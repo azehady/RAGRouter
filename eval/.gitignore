@@ -7,3 +7,6 @@ data/generated_qa.json
 
 # Eval run results (generated, can be large)
 results/
+
+# Background eval state
+.eval_runs/

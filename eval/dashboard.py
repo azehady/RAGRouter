@@ -9,7 +9,9 @@ Usage:
 from __future__ import annotations
 
 import json
+import os
 import re
+import signal
 import subprocess
 import sys
 import time
@@ -131,6 +133,108 @@ def find_runs() -> list[Path]:
     return [r for r in runs if r.is_dir() and (r / "results.jsonl").exists()]
 
 
+EVAL_STATE_DIR = EVAL_DIR / ".eval_runs"
+
+
+def _state_file() -> Path:
+    """Path to the current eval run state file."""
+    EVAL_STATE_DIR.mkdir(exist_ok=True)
+    return EVAL_STATE_DIR / "current.json"
+
+
+def _log_file() -> Path:
+    EVAL_STATE_DIR.mkdir(exist_ok=True)
+    return EVAL_STATE_DIR / "output.log"
+
+
+def get_eval_state() -> dict | None:
+    """Read the current eval run state, or None if no run."""
+    sf = _state_file()
+    if not sf.exists():
+        return None
+    try:
+        state = json.loads(sf.read_text())
+        # Check if process is still alive
+        pid = state.get("pid")
+        if pid and state.get("status") == "running":
+            try:
+                os.kill(pid, 0)  # signal 0 = check existence
+            except OSError:
+                state["status"] = "finished"
+                sf.write_text(json.dumps(state))
+        return state
+    except Exception:
+        return None
+
+
+def start_eval_background(cmd: list[str], run_name: str) -> dict:
+    """Start eval as a detached background process."""
+    log = _log_file()
+    log.write_text("")  # clear
+
+    log_fd = open(log, "w")
+    proc = subprocess.Popen(
+        cmd,
+        stdout=log_fd,
+        stderr=subprocess.STDOUT,
+        start_new_session=True,  # detach from parent — survives dashboard disconnect
+    )
+
+    state = {
+        "pid": proc.pid,
+        "status": "running",
+        "cmd": " ".join(cmd),
+        "run_name": run_name,
+        "started_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    _state_file().write_text(json.dumps(state))
+    return state
+
+
+def stop_eval() -> bool:
+    """Stop the running eval process."""
+    state = get_eval_state()
+    if not state or state.get("status") != "running":
+        return False
+    pid = state.get("pid")
+    if not pid:
+        return False
+    try:
+        os.killpg(os.getpgid(pid), signal.SIGTERM)
+    except OSError:
+        try:
+            os.kill(pid, signal.SIGTERM)
+        except OSError:
+            pass
+    state["status"] = "stopped"
+    _state_file().write_text(json.dumps(state))
+    return True
+
+
+def clear_eval_state():
+    """Remove eval state files."""
+    sf = _state_file()
+    if sf.exists():
+        sf.unlink()
+
+
+def read_eval_log() -> str:
+    """Read the eval log file."""
+    log = _log_file()
+    if not log.exists():
+        return ""
+    return log.read_text()
+
+
+def parse_eval_progress(log_text: str) -> tuple[int, int]:
+    """Parse progress from log text. Returns (completed, total)."""
+    matches = re.findall(r"\[(\d+)/(\d+)\]", log_text)
+    if matches:
+        last = matches[-1]
+        return int(last[0]), int(last[1])
+    return 0, 0
+
+
 def correctness_reason(gt: str, answer: str, score: float) -> str:
     """Explain why the correctness score is what it is."""
     if not answer or not gt:
@@ -190,84 +294,112 @@ else:
 if tab_selection == "Run Eval":
     st.title("Run Evaluation")
 
-    st.markdown(
-        "Trigger a batch evaluation against the arbiter. "
-        "Results appear in the sidebar once complete."
-    )
+    eval_state = get_eval_state()
+    is_running = eval_state is not None and eval_state.get("status") == "running"
 
-    col_cfg1, col_cfg2 = st.columns(2)
-    with col_cfg1:
-        arbiter_url = st.text_input("Arbiter URL", value="http://localhost:8000")
-        limit = st.number_input(
-            "Question limit (0 = all)", min_value=0, max_value=500, value=0, step=5
+    # --- Active run status ---
+    if is_running:
+        st.warning(
+            f"Eval running (PID {eval_state['pid']}, started {eval_state['started_at']})"
         )
-    with col_cfg2:
-        run_name = st.text_input("Run name", value="eval")
-        verbose = st.checkbox("Verbose (show answers in console)", value=False)
 
-    col_opt1, col_opt2 = st.columns(2)
-    with col_opt1:
-        hybrid_url = st.text_input("Hybrid URL (optional, for comparison)", value="")
-    with col_opt2:
-        judge_url = st.text_input("LLM Judge URL (optional)", value="")
+        log_text = read_eval_log()
+        completed, total = parse_eval_progress(log_text)
 
-    if st.button("Start Eval", type="primary", use_container_width=True):
-        cmd = [
-            sys.executable, str(EVAL_DIR / "run_eval.py"),
-            "--arbiter-url", arbiter_url,
-            "--run-name", run_name,
-        ]
-        if limit > 0:
-            cmd += ["--limit", str(limit)]
-        if verbose:
-            cmd += ["--verbose"]
-        if hybrid_url:
-            cmd += ["--hybrid-url", hybrid_url]
-        if judge_url:
-            cmd += ["--judge-url", judge_url]
-
-        st.info(f"Running: `{' '.join(cmd)}`")
-
-        log_area = st.empty()
-        progress_bar = st.progress(0)
-        log_lines: list[str] = []
-
-        # Count total questions
-        total_q = 0
-        if DATASET_FILE.exists():
-            with open(DATASET_FILE) as f:
-                total_q = sum(1 for _ in f)
-        if limit > 0:
-            total_q = min(total_q, limit)
-
-        proc = subprocess.Popen(
-            cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-            text=True, bufsize=1,
-        )
-        completed = 0
-        for line in iter(proc.stdout.readline, ""):
-            line = line.rstrip()
-            log_lines.append(line)
-            # Parse progress from "[N/M]" pattern
-            m = re.search(r"\[(\d+)/(\d+)\]", line)
-            if m:
-                completed = int(m.group(1))
-                total = int(m.group(2))
-                progress_bar.progress(completed / total if total > 0 else 0)
-            # Show last 30 lines
-            log_area.code("\n".join(log_lines[-30:]), language="text")
-
-        proc.wait()
-        progress_bar.progress(1.0)
-
-        if proc.returncode == 0:
-            st.success("Eval complete! Switch to Dashboard or Results Table to view.")
-            # Clear cache so new run shows up
-            load_results.clear()
-            find_runs()
-            st.rerun()
+        if total > 0:
+            st.progress(completed / total, text=f"{completed}/{total} questions")
         else:
-            st.error(f"Eval failed with exit code {proc.returncode}")
+            st.progress(0, text="Starting...")
+
+        # Show last 30 lines of log
+        lines = log_text.strip().split("\n")
+        st.code("\n".join(lines[-30:]), language="text")
+
+        col_stop, col_refresh = st.columns(2)
+        with col_stop:
+            if st.button("Stop Eval", type="primary", use_container_width=True):
+                if stop_eval():
+                    st.success("Eval stopped.")
+                    time.sleep(0.5)
+                    st.rerun()
+                else:
+                    st.error("Could not stop eval.")
+        with col_refresh:
+            if st.button("Refresh", use_container_width=True):
+                st.rerun()
+
+        # Auto-refresh every 5 seconds
+        time.sleep(5)
+        st.rerun()
+
+    # --- Finished/stopped run ---
+    elif eval_state is not None and eval_state.get("status") in ("finished", "stopped"):
+        status = eval_state["status"]
+        icon = "✅" if status == "finished" else "🛑"
+        st.info(
+            f"{icon} Last eval {status} "
+            f"(started {eval_state.get('started_at', '?')})"
+        )
+
+        log_text = read_eval_log()
+        completed, total = parse_eval_progress(log_text)
+        if total > 0:
+            st.progress(completed / total, text=f"{completed}/{total} questions")
+
+        with st.expander("Show log", expanded=False):
+            st.code(log_text[-5000:] if len(log_text) > 5000 else log_text, language="text")
+
+        if st.button("Clear & start new eval"):
+            clear_eval_state()
+            load_results.clear()
+            st.rerun()
+
+        if status == "finished":
+            st.success("Switch to **Dashboard** or **Results Table** to view results.")
+
+    # --- New eval form ---
+    else:
+        st.markdown(
+            "Trigger a batch evaluation against the arbiter. "
+            "The eval runs in the background — you can close the dashboard and come back later."
+        )
+
+        col_cfg1, col_cfg2 = st.columns(2)
+        with col_cfg1:
+            arbiter_url = st.text_input("Arbiter URL", value="http://localhost:8000")
+            limit = st.number_input(
+                "Question limit (0 = all)", min_value=0, max_value=500, value=0, step=5
+            )
+        with col_cfg2:
+            run_name = st.text_input("Run name", value="eval")
+            verbose = st.checkbox("Verbose (log answers)", value=False)
+
+        col_opt1, col_opt2 = st.columns(2)
+        with col_opt1:
+            hybrid_url = st.text_input("Hybrid URL (optional, for comparison)", value="")
+        with col_opt2:
+            judge_url = st.text_input("LLM Judge URL (optional)", value="")
+
+        if st.button("Start Eval", type="primary", use_container_width=True):
+            cmd = [
+                sys.executable, str(EVAL_DIR / "run_eval.py"),
+                "--arbiter-url", arbiter_url,
+                "--run-name", run_name,
+            ]
+            if limit > 0:
+                cmd += ["--limit", str(limit)]
+            if verbose:
+                cmd += ["--verbose"]
+            if hybrid_url:
+                cmd += ["--hybrid-url", hybrid_url]
+            if judge_url:
+                cmd += ["--judge-url", judge_url]
+
+            state = start_eval_background(cmd, run_name)
+            st.success(f"Eval started in background (PID {state['pid']})")
+            load_results.clear()
+            time.sleep(1)
+            st.rerun()
 
 
 # ---------------------------------------------------------------------------
