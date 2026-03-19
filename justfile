@@ -221,9 +221,9 @@ ensure-port-forward:
       echo "Port-forwards ready (arbiter:8000, hybrid:8001, graph:8004)"
     fi
 
-# Launch the Streamlit eval dashboard
+# Launch the Streamlit eval dashboard (port 8701)
 dashboard: ensure-port-forward
-    uv run streamlit run eval/dashboard.py
+    uv run streamlit run eval/dashboard.py --server.port 8701
 
 # Run eval against the arbiter (all 123 questions)
 eval: ensure-port-forward
